@@ -6,7 +6,7 @@
   <link href="https://jachen99.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://jachen99.github.io.git/"/>
-  <updated>2021-04-22T16:03:37.153Z</updated>
+  <updated>2021-04-22T16:43:13.961Z</updated>
   <id>https://jachen99.github.io.git/</id>
   
   <author>
@@ -18,41 +18,18 @@
   
   <entry>
     <title></title>
-    <link href="https://jachen99.github.io.git/2021/04/22/4%E6%9C%8822%E6%97%A5_%E8%80%83%E7%A0%94%E5%80%92%E8%AE%A1%E6%97%B6246%E5%A4%A9/"/>
-    <id>https://jachen99.github.io.git/2021/04/22/4%E6%9C%8822%E6%97%A5_%E8%80%83%E7%A0%94%E5%80%92%E8%AE%A1%E6%97%B6246%E5%A4%A9/</id>
-    <published>2021-04-22T15:48:24.092Z</published>
-    <updated>2021-04-22T16:03:37.153Z</updated>
+    <link href="https://jachen99.github.io.git/2021/04/23/22%E8%80%83%E7%A0%94%E5%80%92%E8%AE%A1%E6%97%B6461%E5%A4%A9/"/>
+    <id>https://jachen99.github.io.git/2021/04/23/22%E8%80%83%E7%A0%94%E5%80%92%E8%AE%A1%E6%97%B6461%E5%A4%A9/</id>
+    <published>2021-04-22T16:43:43.078Z</published>
+    <updated>2021-04-22T16:43:13.961Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>迷迷糊糊的已经到了四月的尾巴，距离考研一天比一天近了，复习进度太慢了太慢了~~~</p><hr><p>今天是4月22号的凌晨23:52分，想简单的总结一下前段时间的（佛系）学习，和复习规划。</p><p>渣渣二本院校，软件工程专业17级学生，一战失败（原因很多复习完、没毅力、贪玩、环境因素…）。二战目标北京某985高校。从今天还是每天记录总结，</p><h4 id="I-believe-I-can！"><a href="#I-believe-I-can！" class="headerlink" title="I believe I can！"></a>I believe I can！<!--mroe--></h4><hr><p>当前进度：</p><p>去年9月开始备考，数二、数据结构、c语言也算是复习了一遍了吧，英语是一点没看~，,终总分224（意料之中）············</p><p>今年进度：数学刚开始—-英语基础语法—-专业课未开始——–看了些数据库知识。。。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;迷迷糊糊的已经到了四月的尾巴，距离考研一天比一天近了，复习进度太慢了太慢了~~~&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;今天是4月22号的凌晨23:52分，想简单的总结一下前段时间的（佛系）学习，和复习规划。&lt;/p&gt;
-&lt;p&gt;渣渣二本院校，软件工程专业17级学生，一战失败（原因很</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://jachen99.github.io.git/2021/04/17/hello-world/"/>
-    <id>https://jachen99.github.io.git/2021/04/17/hello-world/</id>
-    <published>2021-04-16T17:17:29.559Z</published>
-    <updated>2021-04-16T17:17:29.559Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<pre><code>���Ժ������Ѿ��������µ�β�ͣ����뿼��һ���һ����ˣ���ϰ����̫����̫����~~~������4��22�ŵ��賿23:52�֣���򵥵��ܽ�һ��ǰ��ʱ��ģ���ϵ��ѧϰ���͸�ϰ�滮��</code></pre><hr><pre><code>��������ԺУ����������רҵ17��ѧ����һսʧ�ܣ�ԭ��ܶิϰ�ꡢû������̰�桢�������ء�������սĿ�걱��ĳ985��У���ӽ��컹��ÿ���¼�ܽᡣ I BELIEVE I CAN����ǰ���ȣ�</code></pre><p>һս���ĳ�����ѧ��b+ԺУ��ը��!!! ȥ��9�¿�ʼ���������������ݽṹ��c����Ҳ���Ǹ�ϰ��һ���˰ɣ�Ӣ����һ��û��,���ܷ�244û���ߣ���ѧҲû���ߣ�Ӣ��46��רҵ��98�����κ���Ҳ40�ࣨ����֮�У�����������������������<br>    ����һֱ���Ǳ��ĸ�ѧУ�����վ���ƴһ�ѣ�����������ĳ�����������һ���985ԺУ��������´���̹������Ժ�Ҳ���ῼ����������ѧ�տ�ʼ��ϰ��Ӣ������﷨��רҵ�����ݽṹ��δ��ʼ������Щ���ݿ�֪ʶ��Ҫץ����������֪ʶ�ˡ�</p><hr><p>����Ŀ��(��������):</p><p>��ѧ:��һ��660��Ӧϰ��</p><p>Ӣ��:һЦ�����﷨ֱ�����Ͻ���</p><p>רҵ��:���ù滮</p><p>����:ERͼ����</p><p>4��22�ս�</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;pre&gt;&lt;code&gt;���Ժ������Ѿ��������µ�β�ͣ����뿼��һ���һ����ˣ���ϰ����̫����̫����~~~������4��22�ŵ��賿23:52�֣���򵥵��ܽ�һ��ǰ��ʱ��ģ���ϵ��ѧϰ���͸�ϰ�滮��
+&lt;/code</summary>
       
     
     
