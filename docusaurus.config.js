@@ -5,34 +5,33 @@
 
 import { themes as prismThemes } from 'prism-react-renderer';
 
+// 该文件运行在 Node.js 环境中 - 不要在此处使用客户端代码（浏览器 API、JSX 等）
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  // 网站标题
-  title: '软件一班季同学的世界',
-  // 网站副标题
-  tagline: 'do the littllllllllle things well : )',
-  // 网站的 favicon 图标路径
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // 设置站点的生产 URL
   url: 'https://jachen99.github.io',
   // 设置网站的基本路径
-  baseUrl: '/',
+  // 对于 GitHub Pages 部署，通常是 '/<projectName>/'
+  baseUrl: '/Jachen99.github.io/',
 
   // GitHub Pages 部署配置
   // 如果不是使用 GitHub Pages，可以忽略这些配置
-  organizationName: 'Jachen99', // GitHub 组织或用户名
-  projectName: 'Jachen99.github.io', // GitHub 仓库名
+  organizationName: 'Jachen99', // 通常是 GitHub 组织或用户名
+  projectName: 'Jachen99.github.io', // 通常是 GitHub 仓库名
 
-  // 配置对错误链接的处理方式
-  onBrokenLinks: 'throw', // 遇到错误链接抛出异常
-  onBrokenMarkdownLinks: 'warn', // 遇到错误 Markdown 链接发出警告
-  deploymentBranch: 'gh-pages-V2', // 部署分支
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
-  // 配置网站的默认语言
+  // 即使不使用国际化功能，也可以设置此字段以提供有用的 HTML 元数据
+  // 例如，如果站点是中文，可以将 "en" 替换为 "zh-Hans"
   i18n: {
-    defaultLocale: 'zh-Hans', // 默认语言设为简体中文
-    locales: ['zh-Hans'], // 仅支持简体中文
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -41,107 +40,110 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js', // 文档侧边栏配置文件路径
-          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.0.0/', // GitHub 上文档编辑链接
+          sidebarPath: './sidebars.js',
+          // 请将此处更改为你的仓库 URL
+          // 如果不需要编辑页面链接，可以删除该配置
+          editUrl:
+            'https://github.com/Jachen99/Jachen99.github.io/tree/main/docs/',
         },
         blog: {
-          showReadingTime: true, // 显示博客文章的阅读时长
+          showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'], // 提供 RSS 和 Atom 订阅源
-            xslt: true, // 使用 XSLT 样式
+            type: ['rss', 'atom'],
+            xslt: true,
           },
-          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.0.0/', // GitHub 上博客编辑链接
-          // 博客最佳实践相关警告
+          // 请将此处更改为你的仓库 URL
+          // 如果不需要编辑页面链接，可以删除该配置
+          editUrl:
+            'https://github.com/Jachen99/Jachen99.github.io/tree/main/blog/',
+          // 强制执行博客的最佳实践
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css', // 自定义 CSS 文件路径
+          customCss: './src/css/custom.css',
         },
       }),
     ],
   ],
 
-  themeConfig: {
-    // 配置浅色和暗黑模式
-    colorMode: {
-      defaultMode: 'light', // 默认浅色模式
-      disableSwitch: false, // 允许用户切换配色模式
-      respectPrefersColorScheme: true, // 遵循用户系统的配色偏好
-    },
-    // 社交分享图像
-    image: 'img/docusaurus-social-card.jpg',
-    // 导航栏配置
-    navbar: {
-      title: '我的空间', // 导航栏标题
-      logo: {
-        alt: 'My Site Logo', // Logo 的替代文本
-        src: 'img/logo.svg', // Logo 路径
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      // 替换为项目的社交分享图
+      image: 'img/docusaurus-social-card.jpg',
+      navbar: {
+        title: 'My Site',
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/logo.svg',
+        },
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: '教程',
+          },
+          { to: '/blog', label: '博客', position: 'left' },
+          {
+            href: 'https://github.com/Jachen99/Jachen99.github.io',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: '日记',
-        },
-        { to: '/blog', label: '博客', position: 'left' }, // 导航到博客页
-        {
-          href: 'https://github.com/Jachen99/Jachen99.github.io',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
-    },
-    // 页脚配置
-    footer: {
-      style: 'dark', // 页脚样式，支持 `dark` 和 `light`
-      links: [
-        {
-          title: '文档',
-          items: [
-            {
-              label: '我的日记',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: '社区',
-          items: [
-            {
-              label: '我的微博',
-              href: 'https://weibo.com/u/5489560765',
-            },
-            {
-              label: 'CSDN',
-              href: 'https://blog.csdn.net/m0_46464597?type=blog',
-            },
-          ],
-        },
-        {
-          title: '更多',
-          items: [
-            {
-              label: '我的博客',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Jachen99/Jachen99.github.io',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with jiguanchen/blog-boilerplate.`,
-    },
-    // Prism 代码高亮配置
-    prism: {
-      theme: prismThemes.github, // 浅色模式主题
-      darkTheme: prismThemes.dracula, // 暗黑模式主题
-    },
-  },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: '文档',
+            items: [
+              {
+                label: '教程',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: '社区',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'X',
+                href: 'https://x.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: '更多',
+            items: [
+              {
+                label: '博客',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/Jachen99/Jachen99.github.io',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    }),
 };
 
 export default config;

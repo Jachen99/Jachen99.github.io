@@ -18,9 +18,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Ignore everything in the build directory
-build/*
-
-# But not the CNAME file
-!build/CNAME
