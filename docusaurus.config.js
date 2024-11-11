@@ -28,6 +28,7 @@ const config = {
   // 配置对错误链接的处理方式
   onBrokenLinks: 'throw', // 遇到错误链接抛出异常
   onBrokenMarkdownLinks: 'warn', // 遇到错误 Markdown 链接发出警告
+  deploymentBranch: 'gh-pages', // 部署分支
 
   // 配置网站的默认语言
   i18n: {
