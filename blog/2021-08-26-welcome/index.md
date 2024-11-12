@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: 欢迎来到我的博客
-authors: [jachen99]
+authors: [jiguanchen]
 tags: [Docusaurus, 个人博客]
 ---
 
