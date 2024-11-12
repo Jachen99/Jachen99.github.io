@@ -2,11 +2,131 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jachen99.github.io/Jachen99.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2021-09-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jachen99.github.io/Jachen99.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://jachen99.github.io/Jachen99.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[learning/D考笔记]]></title>
+        <id>https://jachen99.github.io/Jachen99.github.io/blog/2021/09/06/learning/D考笔记</id>
+        <link href="https://jachen99.github.io/Jachen99.github.io/blog/2021/09/06/learning/D考笔记"/>
+        <updated>2021-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[产品5：海量用户用电需求分析预测系统]]></summary>
+        <content type="html"><![CDATA[<p>产品5：海量用户用电需求分析预测系统
+1、背景意义
+2、理论研究目标
+3、总体建设目标</p>
+<ul>
+<li>数据中心
+--市场跟踪与分析
+--电量及负荷预测
+--电量预警
+--报表报告
+4、总体建设方案
+-基础数据（内因、外因分析）
+--行业电量
+--大用户信息
+--电厂信息
+--业扩报装信息
+--气象信息
+--经济信息
+-影响因素（智能跟踪）
+--跟踪气象因素
+--跟踪用户因素
+--跟踪经济因素
+--跟踪行业因素
+-分析内容
+--基于气象经济
+--基于相似用户
+--基于业扩容量
+--基于主导行业
+-协调单位（协调预测）
+--省地协调
+--部门协调
+--时间协调
+--口径协调
+-预警（预警体系）
+--预警指标筛选
+--预警体系建立
+-全覆盖全时域电量跟踪分析预警系统平台建设</li>
+</ul>
+<p>数据量大-转置-像Excel一样便捷
+提供
+-海量异常数据辨识与修正
+-基于BI的可视化数据分析<br>
+<!-- -->--精细化的跟踪分析  数据钻取
+--量化气象影响
+--气象影响分析
+--量化经济影响
+--业扩用电特性研究与提炼
+--智能化负荷预测算法</p>
+<p>智能话负荷预测方法库管理</p>
+<p>集中预测 -- 一键全部预测</p>
+<p>多时空尺度的预测结果协调
+-时间尺度
+--年月周日
+-空间尺度
+--全省、地市
+-口径
+--用电量、售电量、供电量</p>
+<p>完善的预警体系
+分析
+基于内因、基于外因、基于跟踪、基于预测
+预警
+预警指标、预警等级、预警概率
+-计划完成率预警、逆势发展预警、先行指标预警、趋势预警等</p>
+<p>实用化的报表</p>
+<p>微服务技术架构</p>
+<p>全覆盖全时域电量跟踪分析预警系统</p>
+<hr>
+<p>售电市场智能分析预测系统
+1、行业分类
+-三产+居民
+-十二大+居民
+-133行业
+-631行业
+用户角度：
+高耗能 重点支柱行业
+细分行业 133
+2、数据来源
+营销1.0、营销2.0 （收集数据）
+新增 大一报表
+3、用户来源
+高压用户、低压台区用户（工业园区、学校）
+lf_ctrl_customer
+4、售电类别
+-全集售电价格类别信息表lf_ctrl_price
+-售电价格类别信息表lf_fc_sell_type
+5、口径（统计数据来源的方式）
+购售同期后口径 00
+购售同期前口径
+发展部
+大一报表
+6、气象数据（用于分析和预测，来源气象网）
+7、调度（调度部门）
+用多少电发多少电  预测用电量<br>
+<!-- -->8、电量和负荷
+负荷 ：瞬时值
+电量：累加值
+计算：
+-负荷率：平均负荷/最高负荷
+-峰谷差：最高负荷-最低负荷
+-峰谷差率：峰谷差/最高负荷
+9、外部经济数据
+10、电量-日周月季年
+11、业扩类型（用于预测）
+-新增
+-增容
+-减容
+-暂停
+-销户
+-减容恢复
+-暂停恢复......
+12、代理工商业
+13、用户群
+14、地区==调度</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://jachen99.github.io/Jachen99.github.io/blog/welcome</id>
