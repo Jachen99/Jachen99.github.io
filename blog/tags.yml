@@ -1,3 +1,13 @@
+dianli-industry:
+  label: 电力行业
+  permalink: /dianli-industry
+  description: 关于电力行业相关的话题
+
+forecasting:
+  label: 预测
+  permalink: /forecasting
+  description: 数据分析与预测相关的内容
+
 facebook:
   label: Facebook
   permalink: /facebook
