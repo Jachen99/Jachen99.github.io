@@ -8,9 +8,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   // 网站标题
-  title: 'My Site',
+  title: '软件一班季同学的世界',
   // 网站副标题
-  tagline: 'Dinosaurs are cool',
+  tagline: 'so cool',
   // 网站的 favicon 图标路径
   favicon: 'img/favicon.ico',
 
