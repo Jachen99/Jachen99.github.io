@@ -2,7 +2,7 @@
 slug: welcome
 title: 欢迎来到我的博客
 authors: [jiguanchen]
-tags: [docusaurus, myblog]
+tags: [docusaurus, my-blog]
 ---
 
 我的博客使用了 [Docusaurus 博客功能](https://docusaurus.io/docs/blog)，由 [博客插件](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog) 提供支持。
