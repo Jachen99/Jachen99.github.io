@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jachen99.github.io/Jachen99.github.io/blog</id>
+    <id>https://jachen99.github.io/blog</id>
     <title>软件一班季同学的世界 Blog</title>
     <updated>2023-10-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://jachen99.github.io/Jachen99.github.io/blog"/>
+    <link rel="alternate" href="https://jachen99.github.io/blog"/>
     <subtitle>软件一班季同学的世界 Blog</subtitle>
-    <icon>https://jachen99.github.io/Jachen99.github.io/img/favicon.ico</icon>
+    <icon>https://jachen99.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[售电市场智能分析预测系统]]></title>
-        <id>https://jachen99.github.io/Jachen99.github.io/blog/product-5</id>
-        <link href="https://jachen99.github.io/Jachen99.github.io/blog/product-5"/>
+        <id>https://jachen99.github.io/blog/product-5</id>
+        <link href="https://jachen99.github.io/blog/product-5"/>
         <updated>2023-10-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[该系统针对售电市场智能分析需求，支持行业分类和售电数据分析。]]></summary>
         <content type="html"><![CDATA[<p>该系统针对售电市场智能分析需求，支持行业分类和售电数据分析。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-行业分类">1. 行业分类<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#1-%E8%A1%8C%E4%B8%9A%E5%88%86%E7%B1%BB" class="hash-link" aria-label="1. 行业分类的直接链接" title="1. 行业分类的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-行业分类">1. 行业分类<a href="https://jachen99.github.io/blog/product-5#1-%E8%A1%8C%E4%B8%9A%E5%88%86%E7%B1%BB" class="hash-link" aria-label="1. 行业分类的直接链接" title="1. 行业分类的直接链接">​</a></h2>
 <ul>
 <li>三产+居民</li>
 <li>十二大+居民</li>
@@ -25,71 +25,71 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-数据来源">2. 数据来源<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#2-%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90" class="hash-link" aria-label="2. 数据来源的直接链接" title="2. 数据来源的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-数据来源">2. 数据来源<a href="https://jachen99.github.io/blog/product-5#2-%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90" class="hash-link" aria-label="2. 数据来源的直接链接" title="2. 数据来源的直接链接">​</a></h2>
 <ul>
 <li>营销1.0、营销2.0 数据</li>
 <li>新增：大一报表</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-用户来源">3. 用户来源<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#3-%E7%94%A8%E6%88%B7%E6%9D%A5%E6%BA%90" class="hash-link" aria-label="3. 用户来源的直接链接" title="3. 用户来源的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-用户来源">3. 用户来源<a href="https://jachen99.github.io/blog/product-5#3-%E7%94%A8%E6%88%B7%E6%9D%A5%E6%BA%90" class="hash-link" aria-label="3. 用户来源的直接链接" title="3. 用户来源的直接链接">​</a></h2>
 <ul>
 <li>高压用户、低压台区用户（工业园区、学校）</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-售电类别">4. 售电类别<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#4-%E5%94%AE%E7%94%B5%E7%B1%BB%E5%88%AB" class="hash-link" aria-label="4. 售电类别的直接链接" title="4. 售电类别的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-售电类别">4. 售电类别<a href="https://jachen99.github.io/blog/product-5#4-%E5%94%AE%E7%94%B5%E7%B1%BB%E5%88%AB" class="hash-link" aria-label="4. 售电类别的直接链接" title="4. 售电类别的直接链接">​</a></h2>
 <ul>
 <li>全集售电价格类别信息表 <code>lf_ctrl_price</code></li>
 <li>售电价格类别信息表 <code>lf_fc_sell_type</code></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-口径统计数据来源方式">5. 口径（统计数据来源方式）<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#5-%E5%8F%A3%E5%BE%84%E7%BB%9F%E8%AE%A1%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="5. 口径（统计数据来源方式）的直接链接" title="5. 口径（统计数据来源方式）的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-口径统计数据来源方式">5. 口径（统计数据来源方式）<a href="https://jachen99.github.io/blog/product-5#5-%E5%8F%A3%E5%BE%84%E7%BB%9F%E8%AE%A1%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="5. 口径（统计数据来源方式）的直接链接" title="5. 口径（统计数据来源方式）的直接链接">​</a></h2>
 <ul>
 <li>购售同期后口径 00</li>
 <li>购售同期前口径</li>
 <li>发展部</li>
 <li>大一报表</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-气象数据">6. 气象数据<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#6-%E6%B0%94%E8%B1%A1%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="6. 气象数据的直接链接" title="6. 气象数据的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-气象数据">6. 气象数据<a href="https://jachen99.github.io/blog/product-5#6-%E6%B0%94%E8%B1%A1%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="6. 气象数据的直接链接" title="6. 气象数据的直接链接">​</a></h2>
 <ul>
 <li>来源：气象网，用于分析和预测</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7-调度">7. 调度<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#7-%E8%B0%83%E5%BA%A6" class="hash-link" aria-label="7. 调度的直接链接" title="7. 调度的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7-调度">7. 调度<a href="https://jachen99.github.io/blog/product-5#7-%E8%B0%83%E5%BA%A6" class="hash-link" aria-label="7. 调度的直接链接" title="7. 调度的直接链接">​</a></h2>
 <ul>
 <li>支持用电量预测和发电量调度，满足用电和负荷预测需求</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="8-电量和负荷">8. 电量和负荷<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#8-%E7%94%B5%E9%87%8F%E5%92%8C%E8%B4%9F%E8%8D%B7" class="hash-link" aria-label="8. 电量和负荷的直接链接" title="8. 电量和负荷的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="负荷">负荷<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#%E8%B4%9F%E8%8D%B7" class="hash-link" aria-label="负荷的直接链接" title="负荷的直接链接">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="8-电量和负荷">8. 电量和负荷<a href="https://jachen99.github.io/blog/product-5#8-%E7%94%B5%E9%87%8F%E5%92%8C%E8%B4%9F%E8%8D%B7" class="hash-link" aria-label="8. 电量和负荷的直接链接" title="8. 电量和负荷的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="负荷">负荷<a href="https://jachen99.github.io/blog/product-5#%E8%B4%9F%E8%8D%B7" class="hash-link" aria-label="负荷的直接链接" title="负荷的直接链接">​</a></h3>
 <ul>
 <li>瞬时值</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="电量">电量<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#%E7%94%B5%E9%87%8F" class="hash-link" aria-label="电量的直接链接" title="电量的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="电量">电量<a href="https://jachen99.github.io/blog/product-5#%E7%94%B5%E9%87%8F" class="hash-link" aria-label="电量的直接链接" title="电量的直接链接">​</a></h3>
 <ul>
 <li>累加值</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="计算指标">计算指标<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#%E8%AE%A1%E7%AE%97%E6%8C%87%E6%A0%87" class="hash-link" aria-label="计算指标的直接链接" title="计算指标的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="计算指标">计算指标<a href="https://jachen99.github.io/blog/product-5#%E8%AE%A1%E7%AE%97%E6%8C%87%E6%A0%87" class="hash-link" aria-label="计算指标的直接链接" title="计算指标的直接链接">​</a></h3>
 <ul>
 <li>负荷率：平均负荷/最高负荷</li>
 <li>峰谷差：最高负荷-最低负荷</li>
 <li>峰谷差率：峰谷差/最高负荷</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9-外部经济数据">9. 外部经济数据<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#9-%E5%A4%96%E9%83%A8%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="9. 外部经济数据的直接链接" title="9. 外部经济数据的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9-外部经济数据">9. 外部经济数据<a href="https://jachen99.github.io/blog/product-5#9-%E5%A4%96%E9%83%A8%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="9. 外部经济数据的直接链接" title="9. 外部经济数据的直接链接">​</a></h2>
 <ul>
 <li>通过接入外部数据，支持多维度的数据分析和预测</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="10-电量分析周期">10. 电量分析周期<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#10-%E7%94%B5%E9%87%8F%E5%88%86%E6%9E%90%EF%BF%BD%EF%BF%BD%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="10. 电量分析周期的直接链接" title="10. 电量分析周期的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="10-电量分析周期">10. 电量分析周期<a href="https://jachen99.github.io/blog/product-5#10-%E7%94%B5%E9%87%8F%E5%88%86%E6%9E%90%EF%BF%BD%EF%BF%BD%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="10. 电量分析周期的直接链接" title="10. 电量分析周期的直接链接">​</a></h2>
 <ul>
 <li>支持日、周、月、季、年等多周期的电量预测和分析</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="11-业扩类型">11. 业扩类型<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#11-%E4%B8%9A%E6%89%A9%E7%B1%BB%E5%9E%8B" class="hash-link" aria-label="11. 业扩类型的直接链接" title="11. 业扩类型的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="11-业扩类型">11. 业扩类型<a href="https://jachen99.github.io/blog/product-5#11-%E4%B8%9A%E6%89%A9%E7%B1%BB%E5%9E%8B" class="hash-link" aria-label="11. 业扩类型的直接链接" title="11. 业扩类型的直接链接">​</a></h2>
 <ul>
 <li>新增、增容、减容、暂停、销户、减容恢复、暂停恢复等</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="12-代理工商业">12. 代理工商业<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#12-%E4%BB%A3%E7%90%86%E5%B7%A5%E5%95%86%E4%B8%9A" class="hash-link" aria-label="12. 代理工商业的直接链接" title="12. 代理工商业的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="12-代理工商业">12. 代理工商业<a href="https://jachen99.github.io/blog/product-5#12-%E4%BB%A3%E7%90%86%E5%B7%A5%E5%95%86%E4%B8%9A" class="hash-link" aria-label="12. 代理工商业的直接链接" title="12. 代理工商业的直接链接">​</a></h2>
 <ul>
 <li>支持代理业务数据的分析与预测</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="13-用户群体">13. 用户群体<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#13-%E7%94%A8%E6%88%B7%E7%BE%A4%E4%BD%93" class="hash-link" aria-label="13. 用户群体的直接链接" title="13. 用户群体的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="13-用户群体">13. 用户群体<a href="https://jachen99.github.io/blog/product-5#13-%E7%94%A8%E6%88%B7%E7%BE%A4%E4%BD%93" class="hash-link" aria-label="13. 用户群体的直接链接" title="13. 用户群体的直接链接">​</a></h2>
 <ul>
 <li>提供行业和区域用户的细分数据，便于分析和预测</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="14-区域调度">14. 区域调度<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-5#14-%E5%8C%BA%E5%9F%9F%E8%B0%83%E5%BA%A6" class="hash-link" aria-label="14. 区域调度的直接链接" title="14. 区域调度的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="14-区域调度">14. 区域调度<a href="https://jachen99.github.io/blog/product-5#14-%E5%8C%BA%E5%9F%9F%E8%B0%83%E5%BA%A6" class="hash-link" aria-label="14. 区域调度的直接链接" title="14. 区域调度的直接链接">​</a></h2>
 <ul>
 <li>通过区域调度和负荷预测优化用电量管理</li>
 </ul>
@@ -104,25 +104,25 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[海量用户用电需求分析预测系统]]></title>
-        <id>https://jachen99.github.io/Jachen99.github.io/blog/product-3</id>
-        <link href="https://jachen99.github.io/Jachen99.github.io/blog/product-3"/>
+        <id>https://jachen99.github.io/blog/product-3</id>
+        <link href="https://jachen99.github.io/blog/product-3"/>
         <updated>2022-04-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[该系统旨在分析和预测海量用户的用电需求，支持多维度的市场跟踪、电量预警和报表生成。]]></summary>
         <content type="html"><![CDATA[<p>该系统旨在分析和预测海量用户的用电需求，支持多维度的市场跟踪、电量预警和报表生成。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-背景意义">1. 背景意义<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#1-%E8%83%8C%E6%99%AF%E6%84%8F%E4%B9%89" class="hash-link" aria-label="1. 背景意义的直接链接" title="1. 背景意义的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-背景意义">1. 背景意义<a href="https://jachen99.github.io/blog/product-3#1-%E8%83%8C%E6%99%AF%E6%84%8F%E4%B9%89" class="hash-link" aria-label="1. 背景意义的直接链接" title="1. 背景意义的直接链接">​</a></h2>
 <p>通过该系统，可以全面分析用户的用电需求，提升供电部门的服务效率和精准度。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-理论研究目标">2. 理论研究目标<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#2-%E7%90%86%E8%AE%BA%E7%A0%94%E7%A9%B6%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="2. 理论研究目标的直接链接" title="2. 理论研究目标的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-理论研究目标">2. 理论研究目标<a href="https://jachen99.github.io/blog/product-3#2-%E7%90%86%E8%AE%BA%E7%A0%94%E7%A9%B6%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="2. 理论研究目标的直接链接" title="2. 理论研究目标的直接链接">​</a></h2>
 <p>研究并建立科学、准确的用户用电需求分析模型，满足不同行业和用户的预测需求。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-总体建设目标">3. 总体建设目标<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#3-%E6%80%BB%E4%BD%93%E5%BB%BA%E8%AE%BE%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="3. 总体建设目标的直接链接" title="3. 总体建设目标的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="数据中心">数据中心<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83" class="hash-link" aria-label="数据中心的直接链接" title="数据中心的直接链接">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-总体建设目标">3. 总体建设目标<a href="https://jachen99.github.io/blog/product-3#3-%E6%80%BB%E4%BD%93%E5%BB%BA%E8%AE%BE%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="3. 总体建设目标的直接链接" title="3. 总体建设目标的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="数据中心">数据中心<a href="https://jachen99.github.io/blog/product-3#%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83" class="hash-link" aria-label="数据中心的直接链接" title="数据中心的直接链接">​</a></h3>
 <ul>
 <li>市场跟踪与分析</li>
 <li>电量及负荷预测</li>
 <li>电量预警</li>
 <li>报表报告</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-总体建设方案">4. 总体建设方案<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#4-%E6%80%BB%E4%BD%93%E5%BB%BA%E8%AE%BE%E6%96%B9%E6%A1%88" class="hash-link" aria-label="4. 总体建设方案的直接链接" title="4. 总体建设方案的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="基础数据内因外因分析">基础数据（内因、外因分析）<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E5%86%85%E5%9B%A0%E5%A4%96%E5%9B%A0%E5%88%86%E6%9E%90" class="hash-link" aria-label="基础数据（内因、外因分析）的直接链接" title="基础数据��（内因、外因分析）的直接链接">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-总体建设方案">4. 总体建设方案<a href="https://jachen99.github.io/blog/product-3#4-%E6%80%BB%E4%BD%93%E5%BB%BA%E8%AE%BE%E6%96%B9%E6%A1%88" class="hash-link" aria-label="4. 总体建设方案的直接链接" title="4. 总体建设方案的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="基础数据内因外因分析">基础数据（内因、外因分析）<a href="https://jachen99.github.io/blog/product-3#%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E5%86%85%E5%9B%A0%E5%A4%96%E5%9B%A0%E5%88%86%E6%9E%90" class="hash-link" aria-label="基础数据（内因、外因分析）的直接链接" title="基础数据��（内因、外因分析）的直接链接">​</a></h3>
 <ul>
 <li>行业电量</li>
 <li>大用户信息</li>
@@ -131,35 +131,35 @@
 <li>气象信息</li>
 <li>经济信息</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="影响因素智能跟踪">影响因素（智能跟踪）<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%BD%B1%E5%93%8D%E5%9B%A0%E7%B4%A0%E6%99%BA%E8%83%BD%E8%B7%9F%E8%B8%AA" class="hash-link" aria-label="影响因素（智能跟踪）的直接链接" title="影响因素（智能跟踪）的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="影响因素智能跟踪">影响因素（智能跟踪）<a href="https://jachen99.github.io/blog/product-3#%E5%BD%B1%E5%93%8D%E5%9B%A0%E7%B4%A0%E6%99%BA%E8%83%BD%E8%B7%9F%E8%B8%AA" class="hash-link" aria-label="影响因素（智能跟踪）的直接链接" title="影响因素（智能跟踪）的直接链接">​</a></h3>
 <ul>
 <li>跟踪气象因素</li>
 <li>跟踪用户因素</li>
 <li>跟踪经济因素</li>
 <li>跟踪行业因素</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="分析内容">分析内容<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%88%86%E6%9E%90%E5%86%85%E5%AE%B9" class="hash-link" aria-label="分析内容的直接链接" title="分析内容的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="分析内容">分析内容<a href="https://jachen99.github.io/blog/product-3#%E5%88%86%E6%9E%90%E5%86%85%E5%AE%B9" class="hash-link" aria-label="分析内容的直接链接" title="分析内容的直接链接">​</a></h3>
 <ul>
 <li>基于气象经济</li>
 <li>基于相似用户</li>
 <li>基于业扩容量</li>
 <li>基于主导行业</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="协调单位协调预测">协调单位（协调预测）<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%8D%8F%E8%B0%83%E5%8D%95%E4%BD%8D%E5%8D%8F%E8%B0%83%E9%A2%84%E6%B5%8B" class="hash-link" aria-label="协调单位（协调预测）的直接链接" title="协调单位（协调预测）的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="协调单位协调预测">协调单位（协调预测）<a href="https://jachen99.github.io/blog/product-3#%E5%8D%8F%E8%B0%83%E5%8D%95%E4%BD%8D%E5%8D%8F%E8%B0%83%E9%A2%84%E6%B5%8B" class="hash-link" aria-label="协调单位（协调预测）的直接链接" title="协调单位（协调预测）的直接链接">​</a></h3>
 <ul>
 <li>省地协调</li>
 <li>部门协调</li>
 <li>时间协调</li>
 <li>口径协调</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="预警预警体系">预警（预警体系）<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E9%A2%84%E8%AD%A6%E9%A2%84%E8%AD%A6%E4%BD%93%E7%B3%BB" class="hash-link" aria-label="预警（预警体系）的直接链接" title="预警（预警体系）的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="预警预警体系">预警（预警体系）<a href="https://jachen99.github.io/blog/product-3#%E9%A2%84%E8%AD%A6%E9%A2%84%E8%AD%A6%E4%BD%93%E7%B3%BB" class="hash-link" aria-label="预警（预警体系）的直接链接" title="预警（预警体系）的直接链接">​</a></h3>
 <ul>
 <li>预警指标筛选</li>
 <li>预警体系建立</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="全覆盖全时域电量跟踪分析预警系统平台建设">全覆盖全时域电量跟踪分析预警系统平台建设<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%85%A8%E8%A6%86%E7%9B%96%E5%85%A8%E6%97%B6%E5%9F%9F%E7%94%B5%E9%87%8F%E8%B7%9F%E8%B8%AA%E5%88%86%E6%9E%90%E9%A2%84%E8%AD%A6%E7%B3%BB%E7%BB%9F%E5%B9%B3%E5%8F%B0%E5%BB%BA%E8%AE%BE" class="hash-link" aria-label="全覆盖全时域电量跟踪分析预警系统平台建设的直接链接" title="全覆盖全时域电量跟�踪分析预警系统平台建设的直接链接">​</a></h3>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="数据处理功能">数据处理功能<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="数据处理功能的直接链接" title="数据处理功能的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="数据处理">数据处理<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86" class="hash-link" aria-label="数据处理的直接链接" title="数据处理的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="全覆盖全时域电量跟踪分析预警系统平台建设">全覆盖全时域电量跟踪分析预警系统平台建设<a href="https://jachen99.github.io/blog/product-3#%E5%85%A8%E8%A6%86%E7%9B%96%E5%85%A8%E6%97%B6%E5%9F%9F%E7%94%B5%E9%87%8F%E8%B7%9F%E8%B8%AA%E5%88%86%E6%9E%90%E9%A2%84%E8%AD%A6%E7%B3%BB%E7%BB%9F%E5%B9%B3%E5%8F%B0%E5%BB%BA%E8%AE%BE" class="hash-link" aria-label="全覆盖全时域电量跟踪分析预警系统平台建设的直接链接" title="全覆盖全时域电量跟�踪分析预警系统平台建设的直接链接">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="数据处理功能">数据处理功能<a href="https://jachen99.github.io/blog/product-3#%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="数据处理功能的直接链接" title="数据处理功能的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="数据处理">数据处理<a href="https://jachen99.github.io/blog/product-3#%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86" class="hash-link" aria-label="数据处理的直接链接" title="数据处理的直接链接">​</a></h3>
 <ul>
 <li>提供海量异常数据辨识与修正</li>
 <li>基于 BI 的可视化数据分析<!-- -->
@@ -172,33 +172,33 @@
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="智能负荷预测方法库管理">智能负荷预测方法库管理<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E6%99%BA%E8%83%BD%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B%E6%96%B9%E6%B3%95%E5%BA%93%E7%AE%A1%E7%90%86" class="hash-link" aria-label="智能负荷预测方法库管理的直接链接" title="智能负荷预测方法库管理的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="智能负荷预测方法库管理">智能负荷预测方法库管理<a href="https://jachen99.github.io/blog/product-3#%E6%99%BA%E8%83%BD%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B%E6%96%B9%E6%B3%95%E5%BA%93%E7%AE%A1%E7%90%86" class="hash-link" aria-label="智能负荷预测方法库管理的直接链接" title="智能负荷预测方法库管理的直接链接">​</a></h3>
 <ul>
 <li>集中预测：支持一键预测</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="多时空尺度的预测结果协调">多时空尺度的预测结果协调<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%A4%9A%E6%97%B6%E7%A9%BA%E5%B0%BA%E5%BA%A6%E7%9A%84%E9%A2%84%E6%B5%8B%E7%BB%93%E6%9E%9C%E5%8D%8F%E8%B0%83" class="hash-link" aria-label="多时空尺度的预测结果协调的直接链接" title="多时空尺度的预测结果协调的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="时间尺度">时间尺度<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E6%97%B6%E9%97%B4%E5%B0%BA%E5%BA%A6" class="hash-link" aria-label="时间尺度的直接链接" title="时间尺度的直接链接">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="多时空尺度的预测结果协调">多时空尺度的预测结果协调<a href="https://jachen99.github.io/blog/product-3#%E5%A4%9A%E6%97%B6%E7%A9%BA%E5%B0%BA%E5%BA%A6%E7%9A%84%E9%A2%84%E6%B5%8B%E7%BB%93%E6%9E%9C%E5%8D%8F%E8%B0%83" class="hash-link" aria-label="多时空尺度的预测结果协调的直接链接" title="多时空尺度的预测结果协调的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="时间尺度">时间尺度<a href="https://jachen99.github.io/blog/product-3#%E6%97%B6%E9%97%B4%E5%B0%BA%E5%BA%A6" class="hash-link" aria-label="时间尺度的直接链接" title="时间尺度的直接链接">​</a></h3>
 <ul>
 <li>年、月、周、日</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="空间尺度">空间尺度<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E7%A9%BA%E9%97%B4%E5%B0%BA%E5%BA%A6" class="hash-link" aria-label="空间尺度的直接链接" title="空间尺度的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="空间尺度">空间尺度<a href="https://jachen99.github.io/blog/product-3#%E7%A9%BA%E9%97%B4%E5%B0%BA%E5%BA%A6" class="hash-link" aria-label="空间尺度的直接链接" title="空间尺度的直接链接">​</a></h3>
 <ul>
 <li>全省、地市</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="口径">口径<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%8F%A3%E5%BE%84" class="hash-link" aria-label="口径的直接链接" title="口径的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="口径">口径<a href="https://jachen99.github.io/blog/product-3#%E5%8F%A3%E5%BE%84" class="hash-link" aria-label="口径的直接链接" title="口径的直接链接">​</a></h3>
 <ul>
 <li>用电量、售电量、供电量</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="完善的预警体系">完善的预警体系<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%AE%8C%E5%96%84%E7%9A%84%E9%A2%84%E8%AD%A6%E4%BD%93%E7%B3%BB" class="hash-link" aria-label="完善的预警体系的直接链接" title="完善的预警体系的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="完善的预警体系">完善的预警体系<a href="https://jachen99.github.io/blog/product-3#%E5%AE%8C%E5%96%84%E7%9A%84%E9%A2%84%E8%AD%A6%E4%BD%93%E7%B3%BB" class="hash-link" aria-label="完善的预警体系的直接链接" title="完善的预警体系的直接链接">​</a></h2>
 <ul>
 <li>基于内因、外因、跟踪和预测的预警分析</li>
 <li>提供计划完成率预警、逆势发展预警、先行指标预警、趋势预警等</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="实用化的报表">实用化的报表<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%AE%9E%E7%94%A8%E5%8C%96%E7%9A%84%E6%8A%A5%E8%A1%A8" class="hash-link" aria-label="实用化的报表的直接链接" title="实用化的报表的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="实用化的报表">实用化的报表<a href="https://jachen99.github.io/blog/product-3#%E5%AE%9E%E7%94%A8%E5%8C%96%E7%9A%84%E6%8A%A5%E8%A1%A8" class="hash-link" aria-label="实用化的报表的直接链接" title="实用化的报表的直接链接">​</a></h2>
 <ul>
 <li>支持高效、精准的报告生成，助力业务决策</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="微服务技术架构">微服务技术架构<a href="https://jachen99.github.io/Jachen99.github.io/blog/product-3#%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84" class="hash-link" aria-label="微服务技术架构的直接链接" title="微服务技术架构的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="微服务技术架构">微服务技术架构<a href="https://jachen99.github.io/blog/product-3#%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84" class="hash-link" aria-label="微服务技术架构的直接链接" title="微服务技术架构的直接链接">​</a></h2>
 <ul>
 <li>提供稳定、可扩展的微服务架构，确保系统的灵活性和扩展性</li>
 </ul>
@@ -212,8 +212,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[欢迎来到我的博客]]></title>
-        <id>https://jachen99.github.io/Jachen99.github.io/blog/welcome</id>
-        <link href="https://jachen99.github.io/Jachen99.github.io/blog/welcome"/>
+        <id>https://jachen99.github.io/blog/welcome</id>
+        <link href="https://jachen99.github.io/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我的博客使用了 Docusaurus 博客功能，由 博客插件 提供支持。]]></summary>
         <content type="html"><![CDATA[<p>我的博客使用了 <a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus 博客功能</a>，由 <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">博客插件</a> 提供支持。</p>
@@ -226,12 +226,12 @@
 <li><code>2024-11-12-welcome/index.md</code></li>
 </ul>
 <p>将文章和相关资源放在同一文件夹中，可以方便地管理博客文章的图片资源。例如：</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus 公仔" src="https://jachen99.github.io/Jachen99.github.io/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Docusaurus 公仔" src="https://jachen99.github.io/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
 <p>博客还支持标签功能！方便归类和筛选文章。</p>
 <p><strong>如果你不需要博客</strong>：只需删除这个目录，并在 Docusaurus 配置中将 <code>blog: false</code>。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="关于我">关于我<a href="https://jachen99.github.io/Jachen99.github.io/blog/welcome#%E5%85%B3%E4%BA%8E%E6%88%91" class="hash-link" aria-label="关于我的直接链接" title="关于我的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="关于我">关于我<a href="https://jachen99.github.io/blog/welcome#%E5%85%B3%E4%BA%8E%E6%88%91" class="hash-link" aria-label="关于我的直接链接" title="关于我的直接链接">​</a></h2>
 <p>我是季冠臣（GitHub 用户名：jachen99），目前是一名后端开发工程师，喜欢研究新的技术，尤其是 Docusaurus 这样的静态站点生成器工具。这个博客是为了分享我的技术经验和学习笔记而创建的。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="我的博客计划">我的博客计划<a href="https://jachen99.github.io/Jachen99.github.io/blog/welcome#%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E8%AE%A1%E5%88%92" class="hash-link" aria-label="我的博客计划的��直接链接" title="我的博客计划的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="我的博客计划">我的博客计划<a href="https://jachen99.github.io/blog/welcome#%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E8%AE%A1%E5%88%92" class="hash-link" aria-label="我的博客计划的直接链接" title="我的博客计划的直接链接">​</a></h2>
 <p>我会分享一些 Java 开发、前端知识和个人项目的进展，希望我的经验能对你有所帮助！也欢迎大家留言交流。</p>
 <hr>
 <p>感谢你的关注，欢迎随时光临我的博客！</p>]]></content>
@@ -244,8 +244,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[我的第一篇 MDX 博客文章]]></title>
-        <id>https://jachen99.github.io/Jachen99.github.io/blog/my-first-blog-post</id>
-        <link href="https://jachen99.github.io/Jachen99.github.io/blog/my-first-blog-post"/>
+        <id>https://jachen99.github.io/blog/my-first-blog-post</id>
+        <link href="https://jachen99.github.io/blog/my-first-blog-post"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[这篇文章展示了 Docusaurus Markdown 功能 的一些特点，比如 MDX 的支持。]]></summary>
         <content type="html"><![CDATA[<p>这篇文章展示了 <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown 功能</a> 的一些特点，比如 <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a> 的支持。</p>
