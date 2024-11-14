@@ -17,8 +17,7 @@ const config = {
   // 设置站点的生产 URL
   url: 'https://jachen99.github.io',
   // 设置网站的基本路径
-  // 对于 GitHub Pages 部署，通常是 '/<projectName>/'
-  baseUrl: '/Jachen99.github.io/',
+  baseUrl: '/',  // 如果你不再使用 '/Jachen99.github.io/' 作为路径
 
   // GitHub Pages 部署配置
   // 如果不是使用 GitHub Pages，可以忽略这些配置
@@ -81,12 +80,6 @@ const config = {
         src: 'img/logo.svg', // Logo 路径
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar', // 关联到侧边栏 ID 为 `tutorialSidebar` 的文档
-          position: 'left',
-          label: '教程', // 导航项标签
-        },
         { to: '/blog', label: '博客', position: 'left' }, // 导航到博客页
         {
           href: 'https://github.com/Jachen99/Jachen99.github.io',
