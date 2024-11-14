@@ -4,7 +4,7 @@
         <title>软件一班季同学的世界 Blog</title>
         <link>https://jachen99.github.io/blog</link>
         <description>软件一班季同学的世界 Blog</description>
-        <lastBuildDate>Thu, 12 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Nov 2024 07:54:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
@@ -12,98 +12,7 @@
             <title><![CDATA[售电市场智能分析预测系统]]></title>
             <link>https://jachen99.github.io/blog/product-5</link>
             <guid>https://jachen99.github.io/blog/product-5</guid>
-            <pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[该系统针对售电市场智能分析需求，支持行业分类和售电数据分析。]]></description>
-            <content:encoded><![CDATA[<p>该系统针对售电市场智能分析需求，支持行业分类和售电数据分析。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-行业分类">1. 行业分类<a href="https://jachen99.github.io/blog/product-5#1-%E8%A1%8C%E4%B8%9A%E5%88%86%E7%B1%BB" class="hash-link" aria-label="1. 行业分类的直接链接" title="1. 行业分类的直接链接">​</a></h2>
-<ul>
-<li>三产+居民</li>
-<li>十二大+居民</li>
-<li>133行业</li>
-<li>631行业<!-- -->
-<ul>
-<li>用户角度：高耗能、重点支柱行业、细分行业（133）</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-数据来源">2. 数据来源<a href="https://jachen99.github.io/blog/product-5#2-%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90" class="hash-link" aria-label="2. 数据来源的直接链接" title="2. 数据来源的直接链接">​</a></h2>
-<ul>
-<li>营销1.0、营销2.0 数据</li>
-<li>新增：大一报表</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-用户来源">3. 用户来源<a href="https://jachen99.github.io/blog/product-5#3-%E7%94%A8%E6%88%B7%E6%9D%A5%E6%BA%90" class="hash-link" aria-label="3. 用户来源的直接链接" title="3. 用户来源的直接链接">​</a></h2>
-<ul>
-<li>高压用户、低压台区用户（工业园区、学校）</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-售电类别">4. 售电类别<a href="https://jachen99.github.io/blog/product-5#4-%E5%94%AE%E7%94%B5%E7%B1%BB%E5%88%AB" class="hash-link" aria-label="4. 售电类别的直接链接" title="4. 售电类别的直接链接">​</a></h2>
-<ul>
-<li>全集售电价格类别信息表 <code>lf_ctrl_price</code></li>
-<li>售电价格类别信息表 <code>lf_fc_sell_type</code></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-口径统计数据来源方式">5. 口径（统计数据来源方式）<a href="https://jachen99.github.io/blog/product-5#5-%E5%8F%A3%E5%BE%84%E7%BB%9F%E8%AE%A1%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="5. 口径（统计数据来源方式）的直接链接" title="5. 口径（统计数据来源方式）的直接链接">​</a></h2>
-<ul>
-<li>购售同期后口径 00</li>
-<li>购售同期前口径</li>
-<li>发展部</li>
-<li>大一报表</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-气象数据">6. 气象数据<a href="https://jachen99.github.io/blog/product-5#6-%E6%B0%94%E8%B1%A1%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="6. 气象数据的直接链接" title="6. 气象数据的直接链接">​</a></h2>
-<ul>
-<li>来源：气象网，用于分析和预测</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7-调度">7. 调度<a href="https://jachen99.github.io/blog/product-5#7-%E8%B0%83%E5%BA%A6" class="hash-link" aria-label="7. 调度的直接链接" title="7. 调度的直接链接">​</a></h2>
-<ul>
-<li>支持用电量预测和发电量调度，满足用电和负荷预测需求</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="8-电量和负荷">8. 电量和负荷<a href="https://jachen99.github.io/blog/product-5#8-%E7%94%B5%E9%87%8F%E5%92%8C%E8%B4%9F%E8%8D%B7" class="hash-link" aria-label="8. 电量和负荷的直接链接" title="8. 电量和负荷的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="负荷">负荷<a href="https://jachen99.github.io/blog/product-5#%E8%B4%9F%E8%8D%B7" class="hash-link" aria-label="负荷的直接链接" title="负荷的直接链接">​</a></h3>
-<ul>
-<li>瞬时值</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="电量">电量<a href="https://jachen99.github.io/blog/product-5#%E7%94%B5%E9%87%8F" class="hash-link" aria-label="电量的直接链接" title="电量的直接链接">​</a></h3>
-<ul>
-<li>累加值</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="计算指标">计算指标<a href="https://jachen99.github.io/blog/product-5#%E8%AE%A1%E7%AE%97%E6%8C%87%E6%A0%87" class="hash-link" aria-label="计算指标的直接链接" title="计算指标的直接链接">​</a></h3>
-<ul>
-<li>负荷率：平均负荷/最高负荷</li>
-<li>峰谷差：最高负荷-最低负荷</li>
-<li>峰谷差率：峰谷差/最高负荷</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9-外部经济数据">9. 外部经济数据<a href="https://jachen99.github.io/blog/product-5#9-%E5%A4%96%E9%83%A8%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="9. 外部经济数据的直接链接" title="9. 外部经济数据的直接链接">​</a></h2>
-<ul>
-<li>通过接入外部数据，支持多维度的数据分析和预测</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="10-电量分析周期">10. 电量分析周期<a href="https://jachen99.github.io/blog/product-5#10-%E7%94%B5%E9%87%8F%E5%88%86%E6%9E%90%EF%BF%BD%EF%BF%BD%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="10. 电量分析周期的直接链接" title="10. 电量分析周期的直接链接">​</a></h2>
-<ul>
-<li>支持日、周、月、季、年等多周期的电量预测和分析</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="11-业扩类型">11. 业扩类型<a href="https://jachen99.github.io/blog/product-5#11-%E4%B8%9A%E6%89%A9%E7%B1%BB%E5%9E%8B" class="hash-link" aria-label="11. 业扩类型的直接链接" title="11. 业扩类型的直接链接">​</a></h2>
-<ul>
-<li>新增、增容、减容、暂停、销户、减容恢复、暂停恢复等</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="12-代理工商业">12. 代理工商业<a href="https://jachen99.github.io/blog/product-5#12-%E4%BB%A3%E7%90%86%E5%B7%A5%E5%95%86%E4%B8%9A" class="hash-link" aria-label="12. 代理工商业的直接链接" title="12. 代理工商业的直接链接">​</a></h2>
-<ul>
-<li>支持代理业务数据的分析与预测</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="13-用户群体">13. 用户群体<a href="https://jachen99.github.io/blog/product-5#13-%E7%94%A8%E6%88%B7%E7%BE%A4%E4%BD%93" class="hash-link" aria-label="13. 用户群体的直接链接" title="13. 用户群体的直接链接">​</a></h2>
-<ul>
-<li>提供行业和区域用户的细分数据，便于分析和预测</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="14-区域调度">14. 区域调度<a href="https://jachen99.github.io/blog/product-5#14-%E5%8C%BA%E5%9F%9F%E8%B0%83%E5%BA%A6" class="hash-link" aria-label="14. 区域调度的直接链接" title="14. 区域调度的直接链接">​</a></h2>
-<ul>
-<li>通过区域调度和负荷预测优化用电量管理</li>
-</ul>
-<hr>
-<p>通过这些功能模块，本系统能够在售电市场中提供精细化分析与预测，满足多维度的数据应用需求。</p>]]></content:encoded>
-            <category>电力行业</category>
-            <category>预测</category>
-        </item>
-        <item>
-            <title><![CDATA[售电市场智能分析预测系统]]></title>
-            <link>https://jachen99.github.io/blog/product-5</link>
-            <guid>https://jachen99.github.io/blog/product-5</guid>
-            <pubDate>Wed, 06 Apr 2022 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 14 Nov 2024 07:54:02 GMT</pubDate>
             <description><![CDATA[该系统针对售电市场智能分析需求，支持行业分类和售电数据分析。]]></description>
             <content:encoded><![CDATA[<p>该系统针对售电市场智能分析需求，支持行业分类和售电数据分析。</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-行业分类">1. 行业分类<a href="https://jachen99.github.io/blog/product-5#1-%E8%A1%8C%E4%B8%9A%E5%88%86%E7%B1%BB" class="hash-link" aria-label="1. 行业分类的直接链接" title="1. 行业分类的直接链接">​</a></h2>
@@ -194,7 +103,7 @@
             <title><![CDATA[海量用户用电需求分析预测系统]]></title>
             <link>https://jachen99.github.io/blog/product-3</link>
             <guid>https://jachen99.github.io/blog/product-3</guid>
-            <pubDate>Wed, 06 Apr 2022 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 12 Nov 2024 02:33:23 GMT</pubDate>
             <description><![CDATA[该系统旨在分析和预测海量用户的用电需求，支持多维度的市场跟踪、电量预警和报表生成。]]></description>
             <content:encoded><![CDATA[<p>该系统旨在分析和预测海量用户的用电需求，支持多维度的市场跟踪、电量预警和报表生成。</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-背景意义">1. 背景意义<a href="https://jachen99.github.io/blog/product-3#1-%E8%83%8C%E6%99%AF%E6%84%8F%E4%B9%89" class="hash-link" aria-label="1. 背景意义的直接链接" title="1. 背景意义的直接链接">​</a></h2>
