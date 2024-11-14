@@ -1,12 +1,43 @@
-import { useEffect } from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
-function Home() {
-    useEffect(() => {
-        // 重定向到博客页面
-        window.location.href = '/blog';
-    }, []);
+import Heading from '@theme/Heading';
+import styles from './index.module.css';
 
-    return null; // 由于立即重定向，首页不需要显示任何内容
+function HomepageHeader() {
+    const {siteConfig} = useDocusaurusContext();
+    return (
+        <header className={clsx('hero hero--primary', styles.heroBanner)}>
+            <div className="container">
+                <Heading as="h1" className="hero__title">
+                    {siteConfig.title}
+                </Heading>
+                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <div className={styles.buttons}>
+                    <Link
+                        className="button button--secondary button--lg"
+                        to="/docs/intro">
+                        季同学的自我介绍 - 5分钟 ⏱️
+                    </Link>
+                </div>
+            </div>
+        </header>
+    );
 }
 
-export default Home;
+export default function Home() {
+    const {siteConfig} = useDocusaurusContext();
+    return (
+        <Layout
+            title={`来自 ${siteConfig.title} 的问候`}
+            description="描述会放在 <head /> 中的 meta 标签里">
+            <HomepageHeader />
+            <main>
+                <HomepageFeatures />
+            </main>
+        </Layout>
+    );
+}

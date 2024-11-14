@@ -17,7 +17,7 @@ const config = {
   // 设置站点的生产 URL
   url: 'https://jachen99.github.io',
   // 设置网站的基本路径
-  baseUrl: '/',  // 如果你不再使用 '/Jachen99.github.io/' 作为路径
+  baseUrl: '/',
 
   // GitHub Pages 部署配置
   // 如果不是使用 GitHub Pages，可以忽略这些配置
@@ -74,12 +74,18 @@ const config = {
     image: 'img/docusaurus-social-card.jpg',
     // 导航栏配置
     navbar: {
-      title: 'My Site', // 导航栏标题
+      title: '我的空间', // 导航栏标题
       logo: {
         alt: 'My Site Logo', // Logo 的替代文本
         src: 'img/logo.svg', // Logo 路径
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: '日记',
+        },
         { to: '/blog', label: '博客', position: 'left' }, // 导航到博客页
         {
           href: 'https://github.com/Jachen99/Jachen99.github.io',
@@ -96,7 +102,7 @@ const config = {
           title: '文档',
           items: [
             {
-              label: '教程',
+              label: '我的日记',
               to: '/docs/intro',
             },
           ],
@@ -105,16 +111,12 @@ const config = {
           title: '社区',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '我的微博',
+              href: 'https://m.weibo.cn/profile/5489560765',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'CSDN',
+              href: 'https://blog.csdn.net/m0_46464597?type=blog',
             },
           ],
         },
@@ -122,7 +124,7 @@ const config = {
           title: '更多',
           items: [
             {
-              label: '博客',
+              label: '我的博客',
               to: '/blog',
             },
             {
@@ -132,7 +134,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with jiguanchen/blog-boilerplate.`,
     },
     // Prism 代码高亮配置
     prism: {

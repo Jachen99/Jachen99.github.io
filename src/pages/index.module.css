@@ -4,76 +4,20 @@
  */
 
 .heroBanner {
-  padding: 6rem 0; /* 增加顶部和底部的间距 */
+  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #6e7e5f, #4b5f46); /* 渐变背景 */
-  color: white;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 3rem; /* 调整小屏幕的内边距 */
+    padding: 2rem;
   }
-}
-
-.heroBanner::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://source.unsplash.com/random/1600x900'); /* 背景图片 */
-  background-size: cover;
-  background-position: center;
-  opacity: 0.3;
-  z-index: -1; /* 使背景图片在内容下面 */
-}
-
-.heroBanner .hero__title {
-  font-size: 3rem; /* 增加标题的字号 */
-  font-weight: bold;
-}
-
-.heroBanner .hero__subtitle {
-  font-size: 1.5rem;
-  margin-top: 1rem;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px; /* 增加按钮之间的间隔 */
-}
-
-.buttons .button {
-  font-size: 1.25rem;
-  padding: 12px 30px;
-  border-radius: 50px;
-  text-transform: uppercase;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.buttons .button:hover {
-  background-color: #ff6600; /* 悬停时的背景颜色 */
-  transform: translateY(-5px); /* 鼠标悬停时轻微上浮 */
-}
-
-.button--primary {
-  background-color: #0070f3; /* 主要按钮的背景色 */
-}
-
-.button--secondary {
-  background-color: #ff6600; /* 次要按钮的背景色 */
-  margin-left: 20px; /* 按钮间隔 */
-}
-
-@media screen and (max-width: 996px) {
-  .buttons .button {
-    font-size: 1rem; /* 在小屏幕上缩小按钮字体 */
-    padding: 10px 20px;
-  }
 }
