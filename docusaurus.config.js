@@ -112,7 +112,7 @@ const config = {
           items: [
             {
               label: '我的微博',
-              href: 'https://m.weibo.cn/profile/5489560765',
+              href: 'https://weibo.com/u/5489560765',
             },
             {
               label: 'CSDN',
