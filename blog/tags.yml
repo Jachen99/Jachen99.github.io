@@ -27,8 +27,3 @@ my-blog:
   label: 个人博客
   permalink: /myblog
   description: My Blog tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
