@@ -42,7 +42,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js', // 文档侧边栏配置文件路径
-          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/main/docs/', // GitHub 上文档编辑链接
+          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.0.0/', // GitHub 上文档编辑链接
         },
         blog: {
           showReadingTime: true, // 显示博客文章的阅读时长
@@ -50,7 +50,7 @@ const config = {
             type: ['rss', 'atom'], // 提供 RSS 和 Atom 订阅源
             xslt: true, // 使用 XSLT 样式
           },
-          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/main/blog/', // GitHub 上博客编辑链接
+          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.0.0/', // GitHub 上博客编辑链接
           // 博客最佳实践相关警告
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
