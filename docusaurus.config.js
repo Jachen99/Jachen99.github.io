@@ -10,7 +10,7 @@ const config = {
   // 网站标题
   title: '软件一班季同学的世界',
   // 网站副标题
-  tagline: 'so cool',
+  tagline: 'do the littllllllllle things well : )',
   // 网站的 favicon 图标路径
   favicon: 'img/favicon.ico',
 
