@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import GiscusComponent from "../GiscusComponent";
+
 
 const FeatureList = [
     {
@@ -55,6 +57,8 @@ export default function HomepageFeatures() {
                         <Feature key={idx} {...props} />
                     ))}
                 </div>
+                {/* 添加评论区 */}
+                <GiscusComponent />
             </div>
         </section>
     );

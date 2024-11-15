@@ -1,14 +1,16 @@
+import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import GiscusComponent from '@site/src/components/GiscusComponent'; // 引入 Giscus 组件
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-    const {siteConfig} = useDocusaurusContext();
+    const { siteConfig } = useDocusaurusContext();
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
@@ -29,7 +31,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-    const {siteConfig} = useDocusaurusContext();
+    const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
             title={`来自 ${siteConfig.title} 的问候`}
@@ -37,6 +39,9 @@ export default function Home() {
             <HomepageHeader />
             <main>
                 <HomepageFeatures />
+
+                {/* 在主页底部引入 Giscus 评论区组件 */}
+                {/*<GiscusComponent />*/}
             </main>
         </Layout>
     );

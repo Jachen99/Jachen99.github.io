@@ -3,7 +3,7 @@
 // 有多种等效的方式声明你的 Docusaurus 配置
 // 参考：https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from 'prism-react-renderer';
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -42,7 +42,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js', // 文档侧边栏配置文件路径
-          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.0.0/', // GitHub 上文档编辑链接
+          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.2.1/', // GitHub 上文档编辑链接
         },
         blog: {
           showReadingTime: true, // 显示博客文章的阅读时长
@@ -50,7 +50,7 @@ const config = {
             type: ['rss', 'atom'], // 提供 RSS 和 Atom 订阅源
             xslt: true, // 使用 XSLT 样式
           },
-          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.0.0/', // GitHub 上博客编辑链接
+          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.2.1/', // GitHub 上博客编辑链接
           // 博客最佳实践相关警告
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -64,6 +64,57 @@ const config = {
   ],
 
   themeConfig: {
+
+
+    // 评论区配置
+
+
+
+    giscus: {
+      repo: 'Jachen99/Jachen99.github.io',
+      repoId: 'R_kgDONLPkoQ',
+      category: 'General',
+      categoryId: 'DIC_kwDONLPkoc4CkSvv',
+      mapping: 'title',
+      lang: 'zh-CN',
+    },
+
+
+
+    // 搜索框配置
+    // algolia: {
+    //   // Algolia 提供的应用 ID
+    //   appId: 'YOUR_APP_ID',
+    //
+    //   //  公开 API 密钥：提交它没有危险
+    //   apiKey: 'YOUR_SEARCH_API_KEY',
+    //
+    //   indexName: 'YOUR_INDEX_NAME',
+    //
+    //   // 可选：见下文
+    //   contextualSearch: true,
+    //
+    //   // 可选：声明哪些域名需要用 window.location 型的导航而不是 history.push。 适用于 Algolia 配置会爬取多个文档站点，而我们想要用 window.location.href 在它们之间跳转时。
+    //   externalUrlRegex: 'external\\.com|domain\\.com',
+    //
+    //   // 可选：替换 Algolia 的部分网址。 在使用相同搜索索引支持多个不同 baseUrl 的部署时非常有用。 你可以在 “from” 中使用正则表达式或字符串。 比方说，localhost:3000 和 myCompany.com/docs
+    //   replaceSearchResultPathname: {
+    //     from: '/docs/', // or as RegExp: /\/docs\//
+    //     to: '/',
+    //   },
+    //
+    //   // 可选：Algolia 搜索参数
+    //   searchParameters: {},
+    //
+    //   // 可选：默认启用的搜索页路径（传递 `false` 以禁用它）
+    //   searchPagePath: 'search',
+    //
+    //   // 可选：Docsearch 的 insights 功能是否启用（默认为 `false`）
+    //   insights: false,
+    //
+    //   //... 其他 Algolia 参数
+    // },
+
     // 配置浅色和暗黑模式
     colorMode: {
       defaultMode: 'light', // 默认浅色模式
@@ -86,7 +137,7 @@ const config = {
           position: 'right',
           label: '日记',
         },
-        { to: '/blog', label: '博客', position: 'right' }, // 导航到博客页
+        {to: '/blog', label: '博客', position: 'right'}, // 导航到博客页
         {
           href: 'https://github.com/Jachen99/Jachen99.github.io',
           label: 'GitHub',
