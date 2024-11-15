@@ -83,10 +83,10 @@ const config = {
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
+          position: 'right',
           label: '日记',
         },
-        { to: '/blog', label: '博客', position: 'left' }, // 导航到博客页
+        { to: '/blog', label: '博客', position: 'right' }, // 导航到博客页
         {
           href: 'https://github.com/Jachen99/Jachen99.github.io',
           label: 'GitHub',
