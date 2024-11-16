@@ -1,9 +1,8 @@
 ---
+slug: product-Sentinel
 title: 流量防卫兵-Sentinel
-toc: true
-data: 2023-02-05 22:05:00
-tags: Sentinel
-categories: Sentinel
+authors: [jiguanchen]
+tags: [Sentinel]
 ---
 
 *随着微服务的流行，服务和服务之间的稳定性变得越来越重要。Sentinel 是面向分布式、多语言异构化服务架构的流量治理组件，主要以流量为切入点，从流量路由、流量控制、流量整形、熔断降级、系统自适应过载保护、热点流量防护等多个维度来帮助开发者保障微服务的稳定性。*<!--more-->
