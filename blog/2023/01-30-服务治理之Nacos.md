@@ -2,7 +2,7 @@
 slug: product-nacos
 title: 服务治理之Nacos
 authors: [jiguanchen]
-tags: [注册中心,Nacos]
+tags: [zhucezhongxin, nacos]
 ---
 
 **背景**：*Nacos官网这样介绍自己：一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台。那么它到底是什么？它是怎么使用的呢？它的出现帮助我们解决了哪些问题？这是本文探究的重点。*<!--more-->
