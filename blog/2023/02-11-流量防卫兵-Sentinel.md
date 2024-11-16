@@ -1,5 +1,5 @@
 ---
-slug: product-Sentinel
+slug: product-Sentinel-flow-control
 title: 流量防卫兵-Sentinel
 authors: [jiguanchen]
 tags: [sentinel]

@@ -1,5 +1,5 @@
 ---
-slug: product-nacos
+slug: product-nacos-service-management
 title: 服务治理之Nacos
 authors: [jiguanchen]
 tags: [zhucezhongxin, nacos]
