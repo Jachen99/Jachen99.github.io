@@ -35,33 +35,42 @@ const config = {
     locales: ['zh-Hans'], // 仅支持简体中文
   },
 
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: './sidebars.js', // 文档侧边栏配置文件路径
-          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.2.1/', // GitHub 上文档编辑链接
+presets: [
+  [
+    'classic',
+    /** @type {import('@docusaurus/preset-classic').Options} */
+    ({
+      docs: {
+        sidebarPath: './sidebars.js', // 文档侧边栏配置文件路径
+        editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.2.1/', // GitHub 上文档编辑链接
+      },
+      blog: {
+        showReadingTime: true, // 显示博客文章的阅读时长
+        feedOptions: {
+          type: ['rss', 'atom'], // 提供 RSS 和 Atom 订阅源
+          xslt: true, // 使用 XSLT 样式
         },
-        blog: {
-          showReadingTime: true, // 显示博客文章的阅读时长
-          feedOptions: {
-            type: ['rss', 'atom'], // 提供 RSS 和 Atom 订阅源
-            xslt: true, // 使用 XSLT 样式
-          },
-          editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.2.1/', // GitHub 上博客编辑链接
-          // 博客最佳实践相关警告
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
-        theme: {
-          customCss: './src/css/custom.css', // 自定义 CSS 文件路径
-        },
-      }),
-    ],
+        editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.2.1/', // GitHub 上博客编辑链接
+
+        // 修改博客配置
+        blogTitle: '我的个人博客', // 博客标题
+        blogDescription: '分享技术心得与生活记录。', // 博客描述
+        postsPerPage: 'ALL', // 显示所有文章在单页中
+        blogSidebarTitle: '所有文章', // 修改侧边栏标题
+        blogSidebarCount: 'ALL', // 侧边栏展示所有文章
+
+        // 博客最佳实践相关警告
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
+      theme: {
+        customCss: './src/css/custom.css', // 自定义 CSS 文件路径
+      },
+    }),
   ],
+],
+
 
   themeConfig: {
 
