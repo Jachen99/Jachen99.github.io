@@ -3,6 +3,11 @@ dianli-industry:
   permalink: /dianli-industry
   description: 关于电力行业相关的话题
 
+mysql:
+  label: mysql
+  permalink: /mysql
+  description: 关于MySQL的相关内容
+
 EasyExcel:
   label: EasyExcel
   permalink: /easy-excel
