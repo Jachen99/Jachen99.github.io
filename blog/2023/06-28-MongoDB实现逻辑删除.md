@@ -2,7 +2,7 @@
 slug: product-logic-delete
 title: MongoDB实现逻辑删除
 authors: [jiguanchen]
-tags: [数据库,MongoDB]
+tags: [shujuku, mongoDB]
 ---
 
 **背景**：*我们对`MongoDB`采用的逻辑删除的方案，与`MySQL`完全不同。 得益于`MongoDB`擅长储存非结构化数据的优点，即使业务数据结构发生，也不会影响原来的数据，还能保证业务表查询效率。 若`MySQL`采用此方案，则有业务数据库表结构变动导致数据迁移失败的风险，甚至影响正常业务流程。 综合考虑，关系型数据库适合通过“删除标记”实现逻辑删除，非关系型数据库更适合将“已删除”的数据迁移至回收表中。*<!--more-->

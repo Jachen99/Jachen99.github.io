@@ -19,17 +19,40 @@ Spring MVC 本质是对 Servlet 的进一步封装，其最核心的组件是 Di
 ## 二、SpringMVC常用组件
 
 
+### Spring MVC 核心组件简要说明
+### Spring MVC 核心组件说明
 
-| 组件                                      | **说明**                                                     | 提供者   |
-| ----------------------------------------- | ------------------------------------------------------------ | -------- |
-| DispatcherServlet（前端控制器、总控制器） | 它是 Spring MVC 的核心，其本质就是一个 Servlet。它负责将所有的请求进行统一分发，相当于一个 Spring MVC 的流程控制中心，控制整个流程的执行，对各个组件进行统一调度，以降低组件之间的耦合性，有利于组件之间的拓展。 | 框架自带 |
-| HandlerMapping（处理器映射器）            | 负责根据请求的 url、method 等信息查找响应的 Handler 处理器（即 Controller 控制器方法）。 | 框架自带 |
-| Handler（处理器）                         | Controller 控制器，负责在 DispatcherServlet 的控制下，对具体的用户请求进行处理。 | 自己编写 |
-| HandlerAdapter（处理器适配器）            | 它负责根据 HandlerMapping 映射器找到的处理器（Handler）信息，按照特定规则执行相关的处理器（Handler）方法。 | 框架自带 |
-| ViewResolver（视图解析器）                | 通过 ModelAndView 对象中的 View 信息对逻辑视图名进行解析，将其解析成真正的视图 View，并返回给 DispatcherServlet。是逻辑视图（result）----->物理视图（/WEB-INF/templates/result.html）的过程。 | 框架自带 |
-| View（视图）                              | 将 Model 模型数据通过页面展示给用户。                        | 自己编写 |
+#### 1. 前端控制器（DispatcherServlet）
+**DispatcherServlet** 是 Spring MVC 的核心组件，本质上是一个 Servlet，负责统一接收并分发所有的请求。它作为整个流程的控制中心，协调各个组件完成任务，从而降低了组件之间的耦合性，增强了系统的可扩展性。
 
+- **提供者**：框架自带
 
+#### 2. 处理器映射器（HandlerMapping）
+**HandlerMapping** 的作用是根据请求的 URL 或 HTTP 方法查找对应的处理器（Handler），也就是具体的控制器方法。
+
+- **提供者**：框架自带
+
+#### 3. 处理器（Handler）
+**Handler** 是具体的控制器方法（Controller），负责在 DispatcherServlet 的调度下处理用户的具体请求，并返回响应数据。
+
+- **提供者**：自己编写
+
+#### 4. 处理器适配器（HandlerAdapter）
+**HandlerAdapter** 负责调用与 HandlerMapping 映射到的处理器方法。它通过特定的规则执行处理器（Handler），确保方法能够被正确调用。
+
+- **提供者**：框架自带
+
+#### 5. 视图解析器（ViewResolver）
+**ViewResolver** 的功能是将逻辑视图名解析为物理视图路径。例如，将逻辑视图名 `result` 解析为 `/WEB-INF/templates/result.html`，并将解析后的视图返回给 DispatcherServlet。
+
+- **提供者**：框架自带
+
+#### 6. 视图（View）
+**View** 是最终的展示层，用于将模型数据（Model）通过页面呈现给用户。通常是由 JSP、Thymeleaf 或其他模板引擎生成的页面。
+
+- **提供者**：自己编写
+
+---
 
 1.  DispatcherServlet（前端控制器）、HandlerMapping（处理器映射器）、HandlerAdapter（处理器适配器）、Handler（处理器）、ViewResolver（视图解析器）和 View（视图）。
 
@@ -54,10 +77,6 @@ Spring MVC 本质是对 Servlet 的进一步封装，其最核心的组件是 Di
 
         <load-on-startup>1</load-on-startup>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>ds</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>
 ```
 
 2、DispatcherServlet——>HandlerMapping
