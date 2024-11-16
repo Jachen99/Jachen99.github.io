@@ -1,0 +1,82 @@
+---
+title: 集合List
+toc: true
+data: 2022-08-05 00:40:18
+tags: [Java,面试题]
+categories: java
+---
+
+*ArrayList和LinkedList的API是一样的，直接上代码*：<!--more-->
+
+```java
+import java.util.LinkedList;
+
+public class ListTest {
+
+    public static void main(String [] args){
+
+        //ArrayList<String> list = new ArrayList<>();
+        LinkedList<String> list = new LinkedList<>();
+
+        //往容器里面添加对象
+        list.add("jack");
+        list.add("tom");
+        list.add("marry");
+
+       String lastObj =  list.getLast();
+        //System.out.println(list);
+       // System.out.println(list.get(0));
+
+        //更新一个元素
+        list.set(0,"小D");
+        System.out.println(list);
+
+        //返回大小
+       int size =  list.size();
+        System.out.println("size="+size);
+
+        //根据索引删除一个元素
+       String indexRemove =  list.remove(1);
+        System.out.println("删除后的元素："+list);
+
+        //根据对象删除元素
+        boolean flag = list.remove("jack");
+
+
+
+        //是否为空
+       boolean beforeClear =  list.isEmpty();
+
+       System.out.println("clear 之前 isEmpty = "+ beforeClear);
+
+        list.clear();
+        //清空元素
+       boolean afterClear = list.isEmpty();
+
+
+       System.out.println("clear 之后 isEmpty = "+ afterClear);
+
+
+    }
+}
+
+//重点：
+//LinkedList特有api
+//获取第⼀一个元素
+list.getFirst();
+//获取最后⼀一个元素
+list.getLast();
+```
+
+ArrayList
+		1、基于数组实现，是一个动态的数组队列，但它和Java中的数组⼜不不一样，它的容量可以自动增⻓
+		2、可以存储任意多的对象，但是只能存储对象，不能存储原生数据类型，例如int
+		LinkedList
+		1、基于的数据结构是链表，⼀个双向链表，链表数据结构的特点是每个元素分配的空间不必连续
+		2、插⼊和删除元素时速度非常快，但访问元素的速度较慢
+
+**两者常见区别 (经典面试题)**
+		1、两个都是List的接口，两个都是非线程安全的
+		2、ArrayList是基于动态数组的数据结构，而LinkedList是基于链表数据结构
+		3、对于随机访问get和set（查询操作），ArrayList要更好，因为LinkedList要移动指针
+		4、对于增删操作（add和remove），LinkedList优于ArrayList。
