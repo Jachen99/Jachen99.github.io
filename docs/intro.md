@@ -49,6 +49,7 @@
 - **GitHub**：[jachen99](https://github.com/jachen99)
 - **Email**：[chenja630@gmail.com](mailto:chenja630@gmail.com)
 - **WeChat**：[点击查看微信二维码](./images/wechat-qr-code.jpg)
+- **QQZone**：[点击查看QQ空间二维码](./images/qq-zone-qr-code.jpg)
 
 ---
 
