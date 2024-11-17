@@ -1823,6 +1823,30 @@ Expire key
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[减少切换上下文开销]]></title>
+        <id>https://jachen99.github.io/blog/talk-about-reduce-context-switch-overhead</id>
+        <link href="https://jachen99.github.io/blog/talk-about-reduce-context-switch-overhead"/>
+        <updated>2022-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我们怎么能减少切换上下文带来的开销呢？]]></summary>
+        <content type="html"><![CDATA[<p><em>我们怎么能减少切换上下文带来的开销呢？</em></p>
+<p>cpu为线程分配时间片，时间片非常短（毫秒级别），cpu不停的切换线程执行，在切换前会保存上一个任务的状态，以便下次切换回这个任务时，可以再加载这个任务的状态，让我们感觉是多个程序同时运行的。</p>
+<p>上下文的频繁切换，会带来一定的性能开销</p>
+<p>那么<strong>如何减少上下文切换的开销</strong>？</p>
+<p>1、<strong>无锁并发编程</strong>
+无锁并发编程。多线程竞争锁时，会引起上下文切换，所以多线程处理数据时，可以用一些办法来避免使用锁，如将数据的ID按照Hash算法取模分段，不同的线程2处理不同段的数据</p>
+<p>2、<strong>CAS</strong>
+Java的Atomic包使用CAS算法来更新数据，而不需要加锁。使用最少线程</p>
+<p>3、<strong>使用最少线程</strong>
+避免创建不需要的线程，比如任务很少，但是创建了很多线程来处理，这样会造成大量线程都处于等待状态</p>
+<p>4、<strong>协程</strong>
+在单线程里实现多任务的调度，并在单线程里维持多个任务间的切换。</p>]]></content>
+        <author>
+            <name>季冠臣</name>
+            <uri>https://github.com/jachen99</uri>
+        </author>
+        <category label="GUC" term="GUC"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[RDB和AOF持久化小结]]></title>
         <id>https://jachen99.github.io/blog/talk-about-redis-persistence</id>
         <link href="https://jachen99.github.io/blog/talk-about-redis-persistence"/>
@@ -1911,39 +1935,5 @@ no：操作系统控制的写回 性能好 宕机时丢失数据较多</p>
         </author>
         <category label="中间件" term="中间件"/>
         <category label="Redis" term="Redis"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[浅谈事务隔离级别]]></title>
-        <id>https://jachen99.github.io/blog/talk-about-transaction-isolation-levels</id>
-        <link href="https://jachen99.github.io/blog/talk-about-transaction-isolation-levels"/>
-        <updated>2022-02-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[*背景：今天在复习事务的隔离级别的时候总结了一些新的想法，之前只知道事务的隔离级别分为读未提交、读已提交、可重复读、序列化四个隔离级别，而在并发运行中，出现的隔离级别中的脏读、幻读和不可重复读的区别，以及他们的触发条件不是很清，经过了一番折腾，这里总结了一些想法。*]]></summary>
-        <content type="html"><![CDATA[<p><em><strong>背景</strong>：今天在复习事务的隔离级别的时候总结了一些新的想法，之前只知道事务的隔离级别分为读未提交、读已提交、可重复读、序列化四个隔离级别，而在并发运行中，出现的隔离级别中的脏读、幻读和不可重复读的区别，以及他们的触发条件不是很清，经过了一番折腾，这里总结了一些想法。</em></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1那么究竟什么是脏读幻读和不可重复读呢">1、那么究竟什么是脏读、幻读和不可重复读呢？<a href="https://jachen99.github.io/blog/talk-about-transaction-isolation-levels#1%E9%82%A3%E4%B9%88%E7%A9%B6%E7%AB%9F%E4%BB%80%E4%B9%88%E6%98%AF%E8%84%8F%E8%AF%BB%E5%B9%BB%E8%AF%BB%E5%92%8C%E4%B8%8D%E5%8F%AF%E9%87%8D%E5%A4%8D%E8%AF%BB%E5%91%A2" class="hash-link" aria-label="1、那么究竟什么是脏读、幻读和不可重复读呢？的直接链接" title="1、那么究竟什么是脏读、幻读和不可重复读呢？的直接链接">​</a></h2>
-<ul>
-<li>脏读：一个事务读取了另一个事务未提交数据；</li>
-<li>不可重复读：同一个事务中前后两次读取同一条记录不一样。因为被其他事务修改了并且提交了。</li>
-<li>幻读：一个事务读取了另一个事务新增、删除的记录情况，记录数不一样，像是出现幻觉。</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2什么是事务的隔离级别呢如何查看隔离级别dos-命令">2、什么是事务的隔离级别呢？如何查看隔离级别？(dos 命令)<a href="https://jachen99.github.io/blog/talk-about-transaction-isolation-levels#2%E4%BB%80%E4%B9%88%E6%98%AF%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB%E5%91%A2%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8B%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%ABdos-%E5%91%BD%E4%BB%A4" class="hash-link" aria-label="2、什么是事务的隔离级别呢？如何查看隔离级别？(dos 命令)的直接链接" title="2、什么是事务的隔离级别呢？如何查看隔离级别？(dos 命令)的直接链接">​</a></h2>
-<p>事务隔离是数据库处理的基础之一。隔离是首字母缩略词 <a href="https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_acid" target="_blank" rel="noopener noreferrer">ACID</a>中的 I ；隔离级别是在多个事务同时进行更改和执行查询时微调性能与结果的可靠性、一致性和可再现性之间的平衡的设置。</p>
-<div class="language-mysql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-mysql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">/*</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">mysql支持四个隔离级别：</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">read-uncommitted：会出现脏读、不可重复读、幻读</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">read-committed：可以避免脏读，会出现不可重复读、幻读</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">repeatable-read：可以避免脏读、不可重复读、幻读。但是两个事务不能操作（写update,delete）同一个行。</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">serializable：可以避免脏读、不可重复读、幻读。但是两个事务不能操作（写update,delete）同一个表。</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">修改隔离级别：</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">set transaction_isolation='隔离级别';  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#mysql8之前 transaction_isolation变量名是 tx_isolation</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">查看隔离级别：</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">select @@transaction_isolation; 默认为：repeatable-read可重复读</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">*/</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p><strong>数据库提供的 4 种事务隔离级别：</strong></p>
-<table><thead><tr><th>隔离级别</th><th>描述</th></tr></thead><tbody><tr><td>read-uncommitted</td><td>允许A事务读取其他事务未提交和已提交的数据。会出现脏读、不可重复读、幻读问题</td></tr><tr><td>read-committed</td><td>只允许A事务读取其他事务已提交的数据。可以避免脏读，但仍然会出现不可重复读、幻读问题</td></tr><tr><td>repeatable-read</td><td>确保事务可以多次从一个字段中读取相同的值。在这个事务持续期间，禁止其他事务对这个字段进行更新。可以避免脏读和不可重复读。但是幻读问题仍然存在。注意：mysql中使用了MVCC多版本控制技术，在这个级别也可以避免幻读。</td></tr><tr><td>serializable</td><td>确保事务可以从一个表中读取相同的行，相同的记录。在这个事务持续期间，禁止其他事务对该表执行插入、更新、删除操作。所有并发问题都可以避免，但性能十分低下。</td></tr></tbody></table>
-<p><img decoding="async" loading="lazy" alt="image-20211202002655521" src="https://jachen99.github.io/assets/images/image-20211202002655521-c351dff0778fbbe99a4f25b7d3b69fe3.png" width="1336" height="539" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="image-20211202002704464" src="https://jachen99.github.io/assets/images/image-20211202002704464-52b519465267410aefeb172925524fa0.png" width="1336" height="476" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="image-20211202002714841" src="https://jachen99.github.io/assets/images/image-20211202002714841-a8688cdf8b5e913ec56e5cac6382da3e.png" width="1336" height="493" class="img_ev3q"></p>
-<p><img decoding="async" loading="lazy" alt="image-20211202002723256" src="https://jachen99.github.io/assets/images/image-20211202002723256-532094975a1a532ffddc3354ebda749d.png" width="1336" height="429" class="img_ev3q"></p>
-<p><strong>总结</strong>：</p>
-<ol>
-<li>脏读：是在读未提交时发生的，事务A读取了事务B还未提交的数据，是一种错误。</li>
-<li>幻读：发生在读未提交、读已提交和可重复读级别都会出现，它强调的是记录数不一样，即增删的情况。事务A读取了事务B已提交的数据，发生了幻读，它不是错误。</li>
-<li>不可重复读：发生在读未提交和读已提交的隔离级别，它强调的是数据内容发生改变，即修改的情况。事务A读取了事务B已提交的数据，事务A前后两次读取同一条记录不一样，它也不是错误。</li>
-</ol>]]></content>
-        <author>
-            <name>季冠臣</name>
-            <uri>https://github.com/jachen99</uri>
-        </author>
-        <category label="MySQL" term="MySQL"/>
     </entry>
 </feed>
