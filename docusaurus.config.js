@@ -27,7 +27,7 @@ const config = {
   // 配置对错误链接的处理方式
   onBrokenLinks: 'throw', // 遇到错误链接抛出异常
   onBrokenMarkdownLinks: 'warn', // 遇到错误 Markdown 链接发出警告
-  deploymentBranch: 'gh-pages-V2', // 部署分支
+  deploymentBranch: 'gh-pages-V3', // 部署分支
 
   // 配置网站的默认语言
   i18n: {
@@ -42,7 +42,7 @@ presets: [
     ({
       docs: {
         sidebarPath: './sidebars.js', // 文档侧边栏配置文件路径
-        editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.2.1/', // GitHub 上文档编辑链接
+        editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V3.0.0/', // GitHub 上文档编辑链接
       },
       blog: {
         showReadingTime: true, // 显示博客文章的阅读时长
@@ -50,7 +50,7 @@ presets: [
           type: ['rss', 'atom'], // 提供 RSS 和 Atom 订阅源
           xslt: true, // 使用 XSLT 样式
         },
-        editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V2.2.1/', // GitHub 上博客编辑链接
+        editUrl: 'https://github.com/Jachen99/Jachen99.github.io/tree/V3.0.0/', // GitHub 上博客编辑链接
 
         // 修改博客配置
         blogTitle: '我的个人博客', // 博客标题
