@@ -195,9 +195,9 @@ presets: [
         },
       ],
       copyright: `
-        <img src="/img/logo.svg" alt="Logo" style="height: 20px; vertical-align: middle;" />
-            © ${new Date().getFullYear()} blog.jiguanchen.space, Inc. 
-        <a href="https://docusaurus.io/" target="_blank" style="text-decoration: none;">Built with Docusaurus</a>.
+        <img src="/img/logo.svg" alt="Logo" style="height: 38px; vertical-align: middle;" />
+            © ${new Date().getFullYear()} blog.jiguanchen.space, Inc. Built with 
+        <a href="https://docusaurus.io/" target="_blank" style="text-decoration: none;">Docusaurus</a>.
       `,
     },
     // Prism 代码高亮配置
