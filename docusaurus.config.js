@@ -196,7 +196,7 @@ presets: [
       ],
       copyright: `
         <img src="/img/logo.svg" alt="Logo" style="height: 38px; vertical-align: middle;" />
-            © ${new Date().getFullYear()} blog.jiguanchen.space, Inc. Built with 
+            © ${new Date().getFullYear()} jachen99.github.io, Inc. Built with 
         <a href="https://docusaurus.io/" target="_blank" style="text-decoration: none;">Docusaurus</a>.
       `,
     },
