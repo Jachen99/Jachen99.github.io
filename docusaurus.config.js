@@ -144,7 +144,7 @@ presets: [
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'right',
-          label: '日记',
+          label: '随笔',
         },
         {to: '/blog', label: '博客', position: 'right'}, // 导航到博客页
         {
@@ -162,7 +162,7 @@ presets: [
           title: '文档',
           items: [
             {
-              label: '我的日记',
+              label: '我的随笔',
               to: '/docs/intro',
             },
           ],
