@@ -194,7 +194,11 @@ presets: [
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with jiguanchen/blog-boilerplate.`,
+      copyright: `
+        <img src="/img/logo.svg" alt="Logo" style="height: 20px; vertical-align: middle;" />
+            © ${new Date().getFullYear()} blog.jiguanchen.space, Inc. 
+        <a href="https://docusaurus.io/" target="_blank" style="text-decoration: none;">Built with Docusaurus</a>.
+      `,
     },
     // Prism 代码高亮配置
     prism: {
