@@ -162,7 +162,7 @@ presets: [
           title: '文档',
           items: [
             {
-              label: '我的随笔',
+              label: '随笔',
               to: '/docs/intro',
             },
           ],
