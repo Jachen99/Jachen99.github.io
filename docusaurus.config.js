@@ -110,7 +110,7 @@ const config = {
 
         // 配置浅色和暗黑模式
         colorMode: {
-            defaultMode: 'light', // 默认浅色模式
+            defaultMode: 'dark', // 默认深色模式
             disableSwitch: false, // 允许用户切换配色模式
             respectPrefersColorScheme: true, // 遵循用户系统的配色偏好
         },
