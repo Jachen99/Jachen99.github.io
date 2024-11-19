@@ -188,10 +188,13 @@ const config = {
                 },
             ],
             copyright: `
-        <img src="/img/logo.svg" alt="Logo" style="height: 38px; vertical-align: middle;" />
-            © ${new Date().getFullYear()} jachen99.github.io, Inc. Built with 
-        <a href="https://docusaurus.io/" target="_blank" style="text-decoration: none;">Docusaurus</a>.
-      `,
+                <img src="/img/logo.svg" alt="Logo" style="height: 38px; vertical-align: middle;" />
+                    © ${new Date().getFullYear()} jachen99.github.io, Inc. Built with 
+                <a href="https://docusaurus.io/" target="_blank" style="text-decoration: none;">Docusaurus</a>.
+                <a href="https://notbyai.fyi/cn/" target="_blank">
+                    <img src="/img/noai.svg" alt="No AI" style="height: 50px; vertical-align: middle; float: right;" />
+                </a>
+            `,
         },
         // Prism 代码高亮配置
         prism: {
