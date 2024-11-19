@@ -91,27 +91,15 @@ const config = {
         // 搜索框配置
         algolia: {
             // Algolia 提供的应用 ID
-            appId: 'H57FMVRMJ9',
+            appId: 'R5YDTJ851V',
 
             //  公开 API 密钥：提交它没有危险
-            apiKey: '13a368b8333bd969cbd463cb79cbdf76',
+            apiKey: '4fa60c7a4ce4335207d307bff2c8f1c0',
 
             indexName: 'jiguanchen',
 
             // 可选：见下文
             contextualSearch: true,
-
-            // 可选：声明哪些域名需要用 window.location 型的导航而不是 history.push。 适用于 Algolia 配置会爬取多个文档站点，而我们想要用 window.location.href 在它们之间跳转时。
-            externalUrlRegex: 'external\\.com|domain\\.com',
-
-            // 可选：替换 Algolia 的部分网址。 在使用相同搜索索引支持多个不同 baseUrl 的部署时非常有用。 你可以在 “from” 中使用正则表达式或字符串。 比方说，localhost:3000 和 myCompany.com/docs
-            replaceSearchResultPathname: {
-                from: '/blog/', // or as RegExp: /\/docs\//
-                to: '/',
-            },
-
-            // 可选：Algolia 搜索参数
-            searchParameters: {},
 
             // 可选：默认启用的搜索页路径（传递 `false` 以禁用它）
             searchPagePath: 'search',
