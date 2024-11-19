@@ -2,7 +2,7 @@
   "label": "一些有感",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "type": "category-some-thoughts",
+    "description": "以下是关于心得的一些想法."
   }
 }

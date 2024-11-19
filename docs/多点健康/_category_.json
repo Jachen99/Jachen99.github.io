@@ -2,7 +2,7 @@
   "label": "多点健康",
   "position": 3,
   "link": {
-    "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "type": "category-more-items",
+    "description": "以下是健康的一些文章."
   }
 }
