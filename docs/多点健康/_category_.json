@@ -2,7 +2,7 @@
   "label": "多点健康",
   "position": 3,
   "link": {
-    "type": "category-more-items",
+    "type": "generated-index",
     "description": "以下是健康的一些文章."
   }
 }
