@@ -177,12 +177,12 @@ const config = {
                             to: '/blog',
                         },
                         {
-                            label: 'GitHub',
-                            href: 'https://github.com/Jachen99/Jachen99.github.io',
-                        },
-                        {
                             label: '友链',
                             to: '/docs/friends',
+                        },
+                        {
+                            label: 'follow me on GitHub',
+                            href: 'https://github.com/Jachen99',
                         },
                     ],
                 },
