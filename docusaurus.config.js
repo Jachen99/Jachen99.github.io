@@ -135,7 +135,7 @@ const config = {
                     label: '随笔',
                 },
                 {to: '/blog', label: '博客', position: 'right'}, // 导航到博客页
-                {to: '/docs/friends', label: '友链', position: 'right'},
+                // {to: '/docs/friends', label: '友链', position: 'right'},
                 {
                     href: 'https://github.com/Jachen99/Jachen99.github.io',
                     label: 'GitHub',
