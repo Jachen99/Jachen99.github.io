@@ -27,7 +27,7 @@ tags: [安全]
 
 ## 2. 创建国密SM4加密工具类
 
-创建国密SM4加密工具类，它将负责实际的加密和解密操作。已有工具所在目录 com.tsingsoft.common.utils.Sm4Utils ：
+创建国密SM4加密工具类，它将负责实际的加密和解密操作。已有工具所在目录 com.space.jiguanchen.utils.Sm4Utils ：
 
 ```java
 package com.space.jiguanchen.utils;
@@ -178,9 +178,9 @@ public class Sm4Utils {
 为了让Nacos使用我们自己的加密工具进行配置解密，我们需要创建一个自定义的Jasypt加密器。在项目中新建一个名为`JasyptStringEncryptor`的类，并让它实现jasypt提供的`StringEncryptor`接口，如下所示：
 
 ```java
-package com.tsingsoft.auth.config;
+package com.space.jiguanchen.auth.config;
 
-import com.tsingsoft.common.utils.Sm4Utils;
+import com.space.jiguanchen.utils.Sm4Utils;
 import lombok.extern.slf4j.Slf4j;
 import org.jasypt.encryption.StringEncryptor;
 import org.springframework.beans.factory.annotation.Value;
@@ -257,10 +257,10 @@ my:
 public static void main(String[] args) {
     try {
         // 自定义的32位16进制密钥
-        String key = "cc9368581322479ebf3e79348a2757d9";
-        String url = Sm4Utils.encryptEcb(key, "jdbc:mysql://192.168.0.167:3306/pmlf_sgcc_dgd?serverTimezone=GMT%2B8",ENCODING);
+        String key = "dhjashdasa26kl223jkwqe2ejwejwq";
+        String url = Sm4Utils.encryptEcb(key, "jdbc:mysql://127.0.0.1:3306/demo?serverTimezone=GMT%2B8",ENCODING);
         String username = Sm4Utils.encryptEcb(key, "root",ENCODING);
-        String password = Sm4Utils.encryptEcb(key, "tsingsoft2021",ENCODING);
+        String password = Sm4Utils.encryptEcb(key, "root",ENCODING);
 
         System.out.println(url);
         System.out.println(username);
