@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <item>
-            <title><![CDATA[SpringBoot集成Jasypt实现Nacos数据库配置加密与解密]]></title>
+            <title><![CDATA[SpringBoot集成Jasypt实现Nacos配置加密与解密]]></title>
             <link>https://jachen99.github.io/blog/product-jasypt-nacos-config</link>
             <guid>https://jachen99.github.io/blog/product-jasypt-nacos-config</guid>
             <pubDate>Sat, 02 Nov 2024 00:00:00 GMT</pubDate>
