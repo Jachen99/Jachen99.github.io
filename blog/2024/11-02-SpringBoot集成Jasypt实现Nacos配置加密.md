@@ -1,11 +1,11 @@
 ---
 slug: product-jasypt-nacos-config
-title: SpringBoot集成Jasypt实现Nacos数据库配置加密与解密
+title: SpringBoot集成Jasypt实现Nacos配置加密与解密
 authors: [jiguanchen]
 tags: [安全]
 ---
 
-# SpringBoot集成Jasypt实现Nacos数据库配置加密与解密
+# SpringBoot集成Jasypt实现Nacos配置加密与解密
 
 本文介绍如何在Nacos中使用国密SM4算法对敏感信息进行加密，并在Spring Boot项目中解密这些配置项。使用Jasypt来集成加密库，并编写一个自定义的加密器，以实现配置项的加密和解密功能。
 
