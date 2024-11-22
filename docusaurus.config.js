@@ -128,12 +128,12 @@ const config = {
                     type: 'search',
                     position: 'right',
                 },
-                {
-                    type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
-                    position: 'right',
-                    label: '随笔',
-                },
+                // {
+                //     type: 'docSidebar',
+                //     sidebarId: 'tutorialSidebar',
+                //     position: 'right',
+                //     label: '随笔',
+                // },
                 {to: '/blog', label: '博客', position: 'right'}, // 导航到博客页
                 // {to: '/docs/friends', label: '友链', position: 'right'},
                 {
