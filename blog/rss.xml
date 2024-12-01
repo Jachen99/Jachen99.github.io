@@ -446,97 +446,6 @@
             <category>xxl-job</category>
         </item>
         <item>
-            <title><![CDATA[售电市场智能分析预测系统]]></title>
-            <link>https://jachen99.github.io/blog/product-market-forecasting-system</link>
-            <guid>https://jachen99.github.io/blog/product-market-forecasting-system</guid>
-            <pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[该系统针对售电市场智能分析需求，支持行业分类和售电数据分析。]]></description>
-            <content:encoded><![CDATA[<p>该系统针对售电市场智能分析需求，支持行业分类和售电数据分析。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-行业分类">1. 行业分类<a href="https://jachen99.github.io/blog/product-market-forecasting-system#1-%E8%A1%8C%E4%B8%9A%E5%88%86%E7%B1%BB" class="hash-link" aria-label="1. 行业分类的直接链接" title="1. 行业分类的直接链接">​</a></h2>
-<ul>
-<li>三产+居民</li>
-<li>十二大+居民</li>
-<li>133行业</li>
-<li>631行业<!-- -->
-<ul>
-<li>用户角度：高耗能、重点支柱行业、细分行业（133）</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-数据来源">2. 数据来源<a href="https://jachen99.github.io/blog/product-market-forecasting-system#2-%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90" class="hash-link" aria-label="2. 数据来源的直接链接" title="2. 数据来源的直接链接">​</a></h2>
-<ul>
-<li>营销1.0、营销2.0 数据</li>
-<li>新增：大一报表</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-用户来源">3. 用户来源<a href="https://jachen99.github.io/blog/product-market-forecasting-system#3-%E7%94%A8%E6%88%B7%E6%9D%A5%E6%BA%90" class="hash-link" aria-label="3. 用户来源的直接链接" title="3. 用户来源的直接链接">​</a></h2>
-<ul>
-<li>高压用户、低压台区用户（工业园区、学校）</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-售电类别">4. 售电类别<a href="https://jachen99.github.io/blog/product-market-forecasting-system#4-%E5%94%AE%E7%94%B5%E7%B1%BB%E5%88%AB" class="hash-link" aria-label="4. 售电类别的直接链接" title="4. 售电类别的直接链接">​</a></h2>
-<ul>
-<li>全集售电价格类别信息表 <code>lf_ctrl_price</code></li>
-<li>售电价格类别信息表 <code>lf_fc_sell_type</code></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-口径统计数据来源方式">5. 口径（统计数据来源方式）<a href="https://jachen99.github.io/blog/product-market-forecasting-system#5-%E5%8F%A3%E5%BE%84%E7%BB%9F%E8%AE%A1%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="5. 口径（统计数据来源方式）的直接链接" title="5. 口径（统计数据来源方式）的直接链接">​</a></h2>
-<ul>
-<li>购售同期后口径 00</li>
-<li>购售同期前口径</li>
-<li>发展部</li>
-<li>大一报表</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-气象数据">6. 气象数据<a href="https://jachen99.github.io/blog/product-market-forecasting-system#6-%E6%B0%94%E8%B1%A1%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="6. 气象数据的直接链接" title="6. 气象数据的直接链接">​</a></h2>
-<ul>
-<li>来源：气象网，用于分析和预测</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7-调度">7. 调度<a href="https://jachen99.github.io/blog/product-market-forecasting-system#7-%E8%B0%83%E5%BA%A6" class="hash-link" aria-label="7. 调度的直接链接" title="7. 调度的直接链接">​</a></h2>
-<ul>
-<li>支持用电量预测和发电量调度，满足用电和负荷预测需求</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="8-电量和负荷">8. 电量和负荷<a href="https://jachen99.github.io/blog/product-market-forecasting-system#8-%E7%94%B5%E9%87%8F%E5%92%8C%E8%B4%9F%E8%8D%B7" class="hash-link" aria-label="8. 电量和负荷的直接链接" title="8. 电量和负荷的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="负荷">负荷<a href="https://jachen99.github.io/blog/product-market-forecasting-system#%E8%B4%9F%E8%8D%B7" class="hash-link" aria-label="负荷的直接链接" title="负荷的直接链接">​</a></h3>
-<ul>
-<li>瞬时值</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="电量">电量<a href="https://jachen99.github.io/blog/product-market-forecasting-system#%E7%94%B5%E9%87%8F" class="hash-link" aria-label="电量的直接链接" title="电量的直接链接">​</a></h3>
-<ul>
-<li>累加值</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="计算指标">计算指标<a href="https://jachen99.github.io/blog/product-market-forecasting-system#%E8%AE%A1%E7%AE%97%E6%8C%87%E6%A0%87" class="hash-link" aria-label="计算指标的直接链接" title="计算指标的直接链接">​</a></h3>
-<ul>
-<li>负荷率：平均负荷/最高负荷</li>
-<li>峰谷差：最高负荷-最低负荷</li>
-<li>峰谷差率：峰谷差/最高负荷</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9-外部经济数据">9. 外部经济数据<a href="https://jachen99.github.io/blog/product-market-forecasting-system#9-%E5%A4%96%E9%83%A8%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="9. 外部经济数据的直接链接" title="9. 外部经济数据的直接链接">​</a></h2>
-<ul>
-<li>通过接入外部数据，支持多维度的数据分析和预测</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="10-电量分析周期">10. 电量分析周期<a href="https://jachen99.github.io/blog/product-market-forecasting-system#10-%E7%94%B5%E9%87%8F%E5%88%86%E6%9E%90%EF%BF%BD%EF%BF%BD%E5%91%A8%E6%9C%9F" class="hash-link" aria-label="10. 电量分析周期的直接链接" title="10. 电量分析周期的直接链接">​</a></h2>
-<ul>
-<li>支持日、周、月、季、年等多周期的电量预测和分析</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="11-业扩类型">11. 业扩类型<a href="https://jachen99.github.io/blog/product-market-forecasting-system#11-%E4%B8%9A%E6%89%A9%E7%B1%BB%E5%9E%8B" class="hash-link" aria-label="11. 业扩类型的直接链接" title="11. 业扩类型的直接链接">​</a></h2>
-<ul>
-<li>新增、增容、减容、暂停、销户、减容恢复、暂停恢复等</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="12-代理工商业">12. 代理工商业<a href="https://jachen99.github.io/blog/product-market-forecasting-system#12-%E4%BB%A3%E7%90%86%E5%B7%A5%E5%95%86%E4%B8%9A" class="hash-link" aria-label="12. 代理工商业的直接链接" title="12. 代理工商业的直接链接">​</a></h2>
-<ul>
-<li>支持代理业务数据的分析与预测</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="13-用户群体">13. 用户群体<a href="https://jachen99.github.io/blog/product-market-forecasting-system#13-%E7%94%A8%E6%88%B7%E7%BE%A4%E4%BD%93" class="hash-link" aria-label="13. 用户群体的直接链接" title="13. 用户群体的直接链接">​</a></h2>
-<ul>
-<li>提供行业和区域用户的细分数据，便于分析和预测</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="14-区域调度">14. 区域调度<a href="https://jachen99.github.io/blog/product-market-forecasting-system#14-%E5%8C%BA%E5%9F%9F%E8%B0%83%E5%BA%A6" class="hash-link" aria-label="14. 区域调度的直接链接" title="14. 区域调度的直接链接">​</a></h2>
-<ul>
-<li>通过区域调度和负荷预测优化用电量管理</li>
-</ul>
-<hr>
-<p>通过这些功能模块，本系统能够在售电市场中提供精细化分析与预测，满足多维度的数据应用需求。</p>]]></content:encoded>
-            <category>电力行业</category>
-            <category>预测</category>
-        </item>
-        <item>
             <title><![CDATA[MongoDB实现逻辑删除]]></title>
             <link>https://jachen99.github.io/blog/product-logic-delete</link>
             <guid>https://jachen99.github.io/blog/product-logic-delete</guid>
@@ -604,110 +513,6 @@
 <div class="language-java codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-java codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">public static void main(String[] args) throws Exception {</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    String fileName = "E:\\11.xlsx";</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    // 这里 需要指定调用哪个class去读，然后读取第一个sheet 文件流会自动关闭</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    EasyExcel.read(fileName, Stu.class, new ExcelListener()).sheet().doRead();</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>上面提到的@DateTimeFormat注解可转换日期格式，还有其他类似功能的注解和自定义转换器。</p>]]></content:encoded>
             <category>EasyExcel</category>
-        </item>
-        <item>
-            <title><![CDATA[海量用户用电需求分析预测系统]]></title>
-            <link>https://jachen99.github.io/blog/product-system-forecasting-electricity-demand</link>
-            <guid>https://jachen99.github.io/blog/product-system-forecasting-electricity-demand</guid>
-            <pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[该系统旨在分析和预测海量用户的用电需求，支持多维度的市场跟踪、电量预警和报表生成。]]></description>
-            <content:encoded><![CDATA[<p>该系统旨在分析和预测海量用户的用电需求，支持多维度的市场跟踪、电量预警和报表生成。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-背景意义">1. 背景意义<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#1-%E8%83%8C%E6%99%AF%E6%84%8F%E4%B9%89" class="hash-link" aria-label="1. 背景意义的直接链接" title="1. 背景意义的直接链接">​</a></h2>
-<p>通过该系统，可以全面分析用户的用电需求，提升供电部门的服务效率和精准度。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-理论研究目标">2. 理论研究目标<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#2-%E7%90%86%E8%AE%BA%E7%A0%94%E7%A9%B6%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="2. 理论研究目标的直接链接" title="2. 理论研究目标的直接链接">​</a></h2>
-<p>研究并建立科学、准确的用户用电需求分析模型，满足不同行业和用户的预测需求。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-总体建设目标">3. 总体建设目标<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#3-%E6%80%BB%E4%BD%93%E5%BB%BA%E8%AE%BE%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="3. 总体建设目标的直接链接" title="3. 总体建设目标的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="数据中心">数据中心<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83" class="hash-link" aria-label="数据中心的直接链接" title="数据中心的直接链接">​</a></h3>
-<ul>
-<li>市场跟踪与分析</li>
-<li>电量及负荷预测</li>
-<li>电量预警</li>
-<li>报表报告</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-总体建设方案">4. 总体建设方案<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#4-%E6%80%BB%E4%BD%93%E5%BB%BA%E8%AE%BE%E6%96%B9%E6%A1%88" class="hash-link" aria-label="4. 总体建设方案的直接链接" title="4. 总体建设方案的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="基础数据内因外因分析">基础数据（内因、外因分析）<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E5%86%85%E5%9B%A0%E5%A4%96%E5%9B%A0%E5%88%86%E6%9E%90" class="hash-link" aria-label="基础数据（内因、外因分析）的直接链接" title="基础数据��（内因、外因分析）的直接链接">​</a></h3>
-<ul>
-<li>行业电量</li>
-<li>大用户信息</li>
-<li>电厂信息</li>
-<li>业扩报装信息</li>
-<li>气象信息</li>
-<li>经济信息</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="影响因素智能跟踪">影响因素（智能跟踪）<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%BD%B1%E5%93%8D%E5%9B%A0%E7%B4%A0%E6%99%BA%E8%83%BD%E8%B7%9F%E8%B8%AA" class="hash-link" aria-label="影响因素（智能跟踪）的直接链接" title="影响因素（智能跟踪）的直接链接">​</a></h3>
-<ul>
-<li>跟踪气象因素</li>
-<li>跟踪用户因素</li>
-<li>跟踪经济因素</li>
-<li>跟踪行业因素</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="分析内容">分析内容<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%88%86%E6%9E%90%E5%86%85%E5%AE%B9" class="hash-link" aria-label="分析内容的直接链接" title="分析内容的直接链接">​</a></h3>
-<ul>
-<li>基于气象经济</li>
-<li>基于相似用户</li>
-<li>基于业扩容量</li>
-<li>基于主导行业</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="协调单位协调预测">协调单位（协调预测）<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%8D%8F%E8%B0%83%E5%8D%95%E4%BD%8D%E5%8D%8F%E8%B0%83%E9%A2%84%E6%B5%8B" class="hash-link" aria-label="协调单位（协调预测）的直接链接" title="协调单位（协调预测）的直接链接">​</a></h3>
-<ul>
-<li>省地协调</li>
-<li>部门协调</li>
-<li>时间协调</li>
-<li>口径协调</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="预警预警体系">预警（预警体系）<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E9%A2%84%E8%AD%A6%E9%A2%84%E8%AD%A6%E4%BD%93%E7%B3%BB" class="hash-link" aria-label="预警（预警体系）的直接链接" title="预警（预警体系）的直接链接">​</a></h3>
-<ul>
-<li>预警指标筛选</li>
-<li>预警体系建立</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="全覆盖全时域电量跟踪分析预警系统平台建设">全覆盖全时域电量跟踪分析预警系统平台建设<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%85%A8%E8%A6%86%E7%9B%96%E5%85%A8%E6%97%B6%E5%9F%9F%E7%94%B5%E9%87%8F%E8%B7%9F%E8%B8%AA%E5%88%86%E6%9E%90%E9%A2%84%E8%AD%A6%E7%B3%BB%E7%BB%9F%E5%B9%B3%E5%8F%B0%E5%BB%BA%E8%AE%BE" class="hash-link" aria-label="全覆盖全时域电量跟踪分析预警系统平台建设的直接链接" title="全覆盖全时域电量跟�踪分析预警系统平台建设的直接链接">​</a></h3>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="数据处理功能">数据处理功能<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="数据处理功能的直接链接" title="数据处理功能的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="数据处理">数据处理<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86" class="hash-link" aria-label="数据处理的直接链接" title="数据处理的直接链接">​</a></h3>
-<ul>
-<li>提供海量异常数据辨识与修正</li>
-<li>基于 BI 的可视化数据分析<!-- -->
-<ul>
-<li>精细化的跟踪分析与数据钻取</li>
-<li>量化气象影响与分析</li>
-<li>量化经济影响</li>
-<li>业扩用电特性研究与提炼</li>
-<li>智能化负荷预测算法</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="智能负荷预测方法库管理">智能负荷预测方法库管理<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E6%99%BA%E8%83%BD%E8%B4%9F%E8%8D%B7%E9%A2%84%E6%B5%8B%E6%96%B9%E6%B3%95%E5%BA%93%E7%AE%A1%E7%90%86" class="hash-link" aria-label="智能负荷预测方法库管理的直接链接" title="智能负荷预测方法库管理的直接链接">​</a></h3>
-<ul>
-<li>集中预测：支持一键预测</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="多时空尺度的预测结果协调">多时空尺度的预测结果协调<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%A4%9A%E6%97%B6%E7%A9%BA%E5%B0%BA%E5%BA%A6%E7%9A%84%E9%A2%84%E6%B5%8B%E7%BB%93%E6%9E%9C%E5%8D%8F%E8%B0%83" class="hash-link" aria-label="多时空尺度的预测结果协调的直接链接" title="多时空尺度的预测结果协调的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="时间尺度">时间尺度<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E6%97%B6%E9%97%B4%E5%B0%BA%E5%BA%A6" class="hash-link" aria-label="时间尺度的直接链接" title="时间尺度的直接链接">​</a></h3>
-<ul>
-<li>年、月、周、日</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="空间尺度">空间尺度<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E7%A9%BA%E9%97%B4%E5%B0%BA%E5%BA%A6" class="hash-link" aria-label="空间尺度的直接链接" title="空间尺度的直接链接">​</a></h3>
-<ul>
-<li>全省、地市</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="口径">口径<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%8F%A3%E5%BE%84" class="hash-link" aria-label="口径的直接链接" title="口径的直接链接">​</a></h3>
-<ul>
-<li>用电量、售电量、供电量</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="完善的预警体系">完善的预警体系<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%AE%8C%E5%96%84%E7%9A%84%E9%A2%84%E8%AD%A6%E4%BD%93%E7%B3%BB" class="hash-link" aria-label="完善的预警体系的直接链接" title="完善的预警体系的直接链接">​</a></h2>
-<ul>
-<li>基于内因、外因、跟踪和预测的预警分析</li>
-<li>提供计划完成率预警、逆势发展预警、先行指标预警、趋势预警等</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="实用化的报表">实用化的报表<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%AE%9E%E7%94%A8%E5%8C%96%E7%9A%84%E6%8A%A5%E8%A1%A8" class="hash-link" aria-label="实用化的报表的直接链接" title="实用化的报表的直接链接">​</a></h2>
-<ul>
-<li>支持高效、精准的报告生成，助力业务决策</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="微服务技术架构">微服务技术架构<a href="https://jachen99.github.io/blog/product-system-forecasting-electricity-demand#%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84" class="hash-link" aria-label="微服务技术架构的直接链接" title="微服务技术架构的直接链接">​</a></h2>
-<ul>
-<li>提供稳定、可扩展的微服务架构，确保系统的灵活性和扩展性</li>
-</ul>
-<hr>]]></content:encoded>
-            <category>电力行业</category>
-            <category>预测</category>
         </item>
         <item>
             <title><![CDATA[spring-security整合微服务实践]]></title>
@@ -1802,6 +1607,100 @@ Expire key
 <p>除了要了解这些数据结构的常用场景之前，还有继续加深对他们底层实现的了解，比如SortedSet底层为什么要使用跳跃表呢？为什么使用红黑树等等。</p>]]></content:encoded>
             <category>中间件</category>
             <category>Redis</category>
+        </item>
+        <item>
+            <title><![CDATA[SpringMVC架构实现流程]]></title>
+            <link>https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process</link>
+            <guid>https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process</guid>
+            <pubDate>Mon, 12 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[起因：SpringMVC是 Spring 框架提供的一款基于 MVC 模式的轻量级 Web 开发框架，为了让自己更清晰的认识SpringMVC底层的实现流程，对SpringMVC有更加深层次的认识，对它进行了使用流程的使用与总结。]]></description>
+            <content:encoded><![CDATA[<p>**起因：**SpringMVC<em>是 Spring 框架提供的一款基于 MVC 模式的轻量级 Web 开发框架，为了让自己更清晰的认识SpringMVC底层的实现流程，对SpringMVC有更加深层次的认识，对它进行了使用流程的使用与总结</em>。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="一什么是springmvc">一、什么是SpringMVC<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#%E4%B8%80%E4%BB%80%E4%B9%88%E6%98%AFspringmvc" class="hash-link" aria-label="一、什么是SpringMVC的直接链接" title="一、什么是SpringMVC的直接链接">​</a></h2>
+<p>Spring MVC 使用 MVC 架构模式的思想，将 Web 应用进行职责解构，把一个复杂的 Web 应用划分成模型（Model）、控制器（Contorller）以及视图（View）三层。</p>
+<ul>
+<li>Model：负责对请求进行处理，并将结果返回给 Controller；</li>
+<li>View：负责将请求的处理结果进行渲染，展示在客户端浏览器上；</li>
+<li>Controller：是 Model 和 View 交互的纽带；主要负责接收用户请求，并调用 Model 对请求处理，然后将 Model 的处理结果传递给 View。</li>
+</ul>
+<p>Spring MVC 本质是对 Servlet 的进一步封装，其最核心的组件是 DispatcherServlet，它是 Spring MVC 的前端控制器，主要负责对请求和响应的统一地处理和分发。Controller 接收到的请求其实就是 DispatcherServlet 根据一定的规则分发给它的。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="二springmvc常用组件">二、SpringMVC常用组件<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#%E4%BA%8Cspringmvc%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6" class="hash-link" aria-label="二、SpringMVC常用组件的直接链接" title="二、SpringMVC常用组件的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="spring-mvc-核心组件简要说明">Spring MVC 核心组件简要说明<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#spring-mvc-%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6%E7%AE%80%E8%A6%81%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="Spring MVC 核心组件简要说明的直接链接" title="Spring MVC 核心组件简要说明的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="spring-mvc-核心组件说明">Spring MVC 核心组件说明<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#spring-mvc-%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="Spring MVC 核心组件说明的直接链接" title="Spring MVC 核心组件说明的直接链接">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="1-前端控制器dispatcherservlet">1. 前端控制器（DispatcherServlet）<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#1-%E5%89%8D%E7%AB%AF%E6%8E%A7%E5%88%B6%E5%99%A8dispatcherservlet" class="hash-link" aria-label="1. 前端控制器（DispatcherServlet）的直接链接" title="1. 前端控制器（DispatcherServlet）的直接链接">​</a></h4>
+<p><strong>DispatcherServlet</strong> 是 Spring MVC 的核心组件，本质上是一个 Servlet，负责统一接收并分发所有的请求。它作为整个流程的控制中心，协调各个组件完成任务，从而降低了组件之间的耦合性，增强了系统的可扩展性。</p>
+<ul>
+<li><strong>提供者</strong>：框架自带</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="2-处理器映射器handlermapping">2. 处理器映射器（HandlerMapping）<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#2-%E5%A4%84%E7%90%86%E5%99%A8%E6%98%A0%E5%B0%84%E5%99%A8handlermapping" class="hash-link" aria-label="2. 处理器映射器（HandlerMapping）的直接链接" title="2. 处理器映射器（HandlerMapping）的直接链接">​</a></h4>
+<p><strong>HandlerMapping</strong> 的作用是根据请求的 URL 或 HTTP 方法查找对应的处理器（Handler），也就是具体的控制器方法。</p>
+<ul>
+<li><strong>提供者</strong>：框架自带</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="3-处理器handler">3. 处理器（Handler）<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#3-%E5%A4%84%E7%90%86%E5%99%A8handler" class="hash-link" aria-label="3. 处理器（Handler）的直接链接" title="3. 处理器（Handler）的直接链接">​</a></h4>
+<p><strong>Handler</strong> 是具体的控制器方法（Controller），负责在 DispatcherServlet 的调度下处理用户的具体请求，并返回响应数据。</p>
+<ul>
+<li><strong>提供者</strong>：自己编写</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="4-处理器适配器handleradapter">4. 处理器适配器（HandlerAdapter）<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#4-%E5%A4%84%E7%90%86%E5%99%A8%E9%80%82%E9%85%8D%E5%99%A8handleradapter" class="hash-link" aria-label="4. 处理器适配器（HandlerAdapter）的直接链接" title="4. 处理器适配器（HandlerAdapter）的直接链接">​</a></h4>
+<p><strong>HandlerAdapter</strong> 负责调用与 HandlerMapping 映射到的处理器方法。它通过特定的规则执行处理器（Handler），确保方法能够被正确调用。</p>
+<ul>
+<li><strong>提供者</strong>：框架自带</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="5-视图解析器viewresolver">5. 视图解析器（ViewResolver）<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#5-%E8%A7%86%E5%9B%BE%E8%A7%A3%E6%9E%90%E5%99%A8viewresolver" class="hash-link" aria-label="5. 视图解析器（ViewResolver）的直接链接" title="5. 视图解析器（ViewResolver）的直接链接">​</a></h4>
+<p><strong>ViewResolver</strong> 的功能是将逻辑视图名解析为物理视图路径。例如，将逻辑视图名 <code>result</code> 解析为 <code>/WEB-INF/templates/result.html</code>，并将解析后的视图返回给 DispatcherServlet。</p>
+<ul>
+<li><strong>提供者</strong>：框架自带</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="6-视图view">6. 视图（View）<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#6-%E8%A7%86%E5%9B%BEview" class="hash-link" aria-label="6. 视图（View）的直接链接" title="6. 视图（View）的直接链接">​</a></h4>
+<p><strong>View</strong> 是最终的展示层，用于将模型数据（Model）通过页面呈现给用户。通常是由 JSP、Thymeleaf 或其他模板引擎生成的页面。</p>
+<ul>
+<li><strong>提供者</strong>：自己编写</li>
+</ul>
+<hr>
+<ol>
+<li>DispatcherServlet（前端控制器）、HandlerMapping（处理器映射器）、HandlerAdapter（处理器适配器）、Handler（处理器）、ViewResolver（视图解析器）和 View（视图）。</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="三springmvc基本流程图">三、SpringMVC基本流程图<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#%E4%B8%89springmvc%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B%E5%9B%BE" class="hash-link" aria-label="三、SpringMVC基本流程图的直接链接" title="三、SpringMVC基本流程图的直接链接">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="image-20221204230911409" src="https://jachen99.github.io/assets/images/image-20221204230911409-604f1a5c54260f4c22538bd29dd056b2.png" width="1012" height="671" class="img_ev3q"></p>
+<p>1、浏览器发送请求——&gt;DispatcherServlet</p>
+<p>该请求会被 DispatcherServlet（前端控制器）拦截；前端控制器收到请求后自己不进行处理，而是委托给其他组件进行处理，作为统一访问点，进行全局的流程控制。</p>
+<div class="language-xml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-xml codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token comment" style="color:rgb(98, 114, 164)">&lt;!-- DS：前端控制器 --&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    </span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;</span><span class="token tag" style="color:rgb(255, 121, 198)">servlet</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        </span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;</span><span class="token tag" style="color:rgb(255, 121, 198)">servlet-name</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain">ds</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;/</span><span class="token tag" style="color:rgb(255, 121, 198)">servlet-name</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        </span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;</span><span class="token tag" style="color:rgb(255, 121, 198)">servlet-class</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain">org.springframework.web.servlet.DispatcherServlet</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;/</span><span class="token tag" style="color:rgb(255, 121, 198)">servlet-class</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        </span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;</span><span class="token tag" style="color:rgb(255, 121, 198)">init-param</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">            </span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;</span><span class="token tag" style="color:rgb(255, 121, 198)">param-name</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain">contextConfigLocation</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;/</span><span class="token tag" style="color:rgb(255, 121, 198)">param-name</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">            </span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;</span><span class="token tag" style="color:rgb(255, 121, 198)">param-value</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain">classpath:applicationContext-web.xml</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;/</span><span class="token tag" style="color:rgb(255, 121, 198)">param-value</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        </span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;/</span><span class="token tag" style="color:rgb(255, 121, 198)">init-param</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        </span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;</span><span class="token tag" style="color:rgb(255, 121, 198)">load-on-startup</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain">1</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;/</span><span class="token tag" style="color:rgb(255, 121, 198)">load-on-startup</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    </span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&lt;/</span><span class="token tag" style="color:rgb(255, 121, 198)">servlet</span><span class="token tag punctuation" style="color:rgb(248, 248, 242)">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>2、DispatcherServlet——&gt;HandlerMapping</p>
+<p>DispatcherServlet 调用 HandlerMapping（处理器映射器）找到具体的处理器（Handler）及拦截器，最后以 HandlerExecutionChain 执行链的形式返回给 DispatcherServlet。</p>
+<p>3、DispatcherServlet——&gt;HandlerAdapter</p>
+<p>DispatcherServlet 将执行链返回的 Handler 信息发送给 HandlerAdapter（处理器适配器）。处理器适配器将会把处理器包装为适配器，从而支持多种类型的处理器，即适配器设计模式的应用，从而很容易支持很多类型的处理器。</p>
+<p>4、HandlerAdapter——&gt;Handler</p>
+<p>根据 Handler 信息找到并执行相应的 Handler（即 Controller 控制器）对请求进行处理，Handler 执行完毕后会返回给 HandlerAdapter 一个 ModelAndView 对象（Spring MVC 的底层对象，包括 Model 数据模型和 View 视图信息）。</p>
+<p>5、DispatcherServlet——&gt;ViewResolver</p>
+<p>DispatcherServlet 接收到 ModelAndView 对象后，会请求 ViewResolver（视图解析器）对视图进行解析。</p>
+<p>6、DispatcherServlet——&gt;View</p>
+<p>ViewResolver 解析完成后，会将 View 视图并返回给 DispatcherServlet。DispatcherServlet 接收到具体的 View 视图后，进行视图渲染，将 Model 中的模型数据填充到 View 视图中的 request 域，生成最终的 View（视图）。</p>
+<p>7、DispatcherServlet——&gt;响应</p>
+<p>返回控制权给DispatcherServlet，由它响应用户，到此一个流程结束。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="四springmvc的优势">四、SpringMVC的优势<a href="https://jachen99.github.io/blog/talk-about-SpringMVC-implementation-process#%E5%9B%9Bspringmvc%E7%9A%84%E4%BC%98%E5%8A%BF" class="hash-link" aria-label="四、SpringMVC的优势的直接链接" title="四、SpringMVC的优势的直接链接">​</a></h2>
+<p>Spring MVC 框架内部采用松耦合、可插拔的组件结构，具有高度可配置性，比起其他的 MVC 框架更具有扩展性和灵活性。此外，Spring MVC 的注解驱动（annotation-driven）和对 REST 风格的支持，也是它最具有特色的功能。</p>
+<p>Spring MVC 是 Spring 框架的众多子项目之一，自 Spring 框架诞生之日起就包含在 Spring 框架中了，它可以与 Spring 框架无缝集成，在性能方面具有先天的优越性。对于开发者来说，Spring MVC 的开发效率要明显高于其它的 Web 框架，因此 Spring MVC 在企业中得到了广泛的应用，成为目前业界最主流的 MVC 框架之一。</p>
+<p>Spring MVC 基于原生的 Servlet 实现，通过功能强大的前端控制器 DispatcherServlet，对请求和响应进行统一处理。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[减少切换上下文开销]]></title>
+            <link>https://jachen99.github.io/blog/talk-about-reduce-context-switch-overhead</link>
+            <guid>https://jachen99.github.io/blog/talk-about-reduce-context-switch-overhead</guid>
+            <pubDate>Fri, 20 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[我们怎么能减少切换上下文带来的开销呢？]]></description>
+            <content:encoded><![CDATA[<p><em>我们怎么能减少切换上下文带来的开销呢？</em></p>
+<p>cpu为线程分配时间片，时间片非常短（毫秒级别），cpu不停的切换线程执行，在切换前会保存上一个任务的状态，以便下次切换回这个任务时，可以再加载这个任务的状态，让我们感觉是多个程序同时运行的。</p>
+<p>上下文的频繁切换，会带来一定的性能开销</p>
+<p>那么<strong>如何减少上下文切换的开销</strong>？</p>
+<p>1、<strong>无锁并发编程</strong>
+无锁并发编程。多线程竞争锁时，会引起上下文切换，所以多线程处理数据时，可以用一些办法来避免使用锁，如将数据的ID按照Hash算法取模分段，不同的线程2处理不同段的数据</p>
+<p>2、<strong>CAS</strong>
+Java的Atomic包使用CAS算法来更新数据，而不需要加锁。使用最少线程</p>
+<p>3、<strong>使用最少线程</strong>
+避免创建不需要的线程，比如任务很少，但是创建了很多线程来处理，这样会造成大量线程都处于等待状态</p>
+<p>4、<strong>协程</strong>
+在单线程里实现多任务的调度，并在单线程里维持多个任务间的切换。</p>]]></content:encoded>
+            <category>GUC</category>
         </item>
     </channel>
 </rss>
