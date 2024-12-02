@@ -2,7 +2,7 @@
 id: friends
 title: 友链
 sidebar_label: 友链
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 以下是一些友好链接，欢迎互访 😊：
