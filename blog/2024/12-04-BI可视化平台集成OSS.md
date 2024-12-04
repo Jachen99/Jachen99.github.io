@@ -32,9 +32,9 @@ gc:
         endpoint: https://oss-cn-beijing.aliyuncs.com
         accessKeyId: ***  # 请替换为您的实际 AccessKeyId
         accessKeySecret: ***  # 请替换为您的实际 AccessKeySecret
-        pathPrefix: https://tsingsoft.oss-cn-beijing.aliyuncs.com
+        pathPrefix: https://***.oss-cn-beijing.aliyuncs.com
         bucketName: ***
-        filePathPrefix: tsingsoft/bigScreen
+        filePathPrefix: ***/bigScreen
 ```
 
 **注意事项：**
