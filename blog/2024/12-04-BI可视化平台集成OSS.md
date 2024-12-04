@@ -1,3 +1,10 @@
+---
+slug: product-docs-oss-integration
+title: BI可视化平台集成OSS
+authors: [jiguanchen]
+tags: [oss]
+---
+
 ## BI可视化平台集成OSS
 本技术文档基于开源项目 [DataRoom](https://github.com/gcpaas/DataRoom) 进行修改和扩展。该项目提供了基础的文件管理功能，并集成了阿里云OSS（对象存储服务）。在此基础上，我们为 BI 可视化平台提供了文件上传、下载、删除、复制等操作的实现，并进行了相关的性能优化。
 ### 1. 技术实现
