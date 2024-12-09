@@ -5,8 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build && echo 'blog.jiguanchen.space' > build/CNAME",
-    "deploy": "cross-env GIT_USER=Jachen99 docusaurus deploy && echo 'blog.jiguanchen.space' > build/CNAME && git add build/CNAME && git commit -m 'Add CNAME file' && git push origin gh-pages-V3",
+    "build": "docusaurus build",
+    "deploy": "docusaurus deploy",
     "swizzle": "docusaurus swizzle",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
