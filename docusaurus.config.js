@@ -73,6 +73,7 @@ const config = {
 
 
     themeConfig: {
+        metadata: [{name: 'keywords', content: '个人博客, 技术分享, Java, Spring, Redis, ES, Docusaurus'}],
         tableOfContents: {
           minHeadingLevel: 2,
           maxHeadingLevel: 4,
