@@ -157,3 +157,13 @@ database:
   label: 数据库
   permalink: /database
   description: 关于数据库相关的话题
+
+blog:
+  label: 博客
+  permalink: /blog-tag
+  description: 关于博客建设与写作的话题
+
+seo:
+  label: SEO
+  permalink: /seo
+  description: 关于搜索引擎优化的话题
