@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: product-Sentinel-flow-control
+slug: middleware-sentinel
 title: 流量防卫兵-Sentinel
 authors: [jiguanchen]
 tags: [sentinel]

@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: product-nacos-service-management
+slug: middleware-nacos-service-governance
 title: 服务治理之Nacos
 authors: [jiguanchen]
 tags: [zhucezhongxin, nacos]
@@ -111,7 +108,7 @@ public class VideoController {
 }
 ```
 
-当Order服务去调用Video服务的时候，.getForObject("http://127.0.0.1:9000/api/v1/video/getById/"+id, Video.class);这里路径是写死的 ，如果服务的ip换了或者新增其他服务 ，需要我们去更改源码 ，得不偿失，那么有没有一个应用，可以在Order服务完成下单操作时就知道哪些服务是“活着”的呢？Nacos一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台随时应运而生，所有服务启动前都会把自己注册到Nacos注册中心进行统一管理，同时，比如订单服务想去远程调用我们的其他服务 可以去注册中心查找这些服务的状态信息，实现动态去获取他们的地址，这样就避免了自身源码的改动，也为实现负载均衡等其他功能提供了基础。
+当Order服务去调用Video服务的时候，.getForObject("http://127.0.0.1:9000/api/v1/video/getById/"+id, Video.class);这里路径是写死的 ，如果服务的ip换了或者新增其他服务 ，需要我们去更改源码 ，得不偿失，那么有没有一个应用，可以在Order服务完成下单操作时就知道哪些服务是"活着"的呢？Nacos一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台随时应运而生，所有服务启动前都会把自己注册到Nacos注册中心进行统一管理，同时，比如订单服务想去远程调用我们的其他服务 可以去注册中心查找这些服务的状态信息，实现动态去获取他们的地址，这样就避免了自身源码的改动，也为实现负载均衡等其他功能提供了基础。
 
 总结
 

@@ -1,7 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-slug: product-ribbon
+slug: middleware-ribbon-load-balancing
 title: 负载均衡之Ribbon实现
 authors: [jiguanchen]
 tags: [fuzongbanlian, ribbon]
@@ -16,7 +14,7 @@ tags: [fuzongbanlian, ribbon]
 -   什么是负载均衡（Load Balance）
 
     ```
-    分布式系统中一个非常重要的概念，当访问的服务具有多个实例时，需要根据某种“均衡”的策略决定请求发往哪个节点，这就是所谓的负载均衡，
+    分布式系统中一个非常重要的概念，当访问的服务具有多个实例时，需要根据某种"均衡"的策略决定请求发往哪个节点，这就是所谓的负载均衡，
     ```
 
     ```

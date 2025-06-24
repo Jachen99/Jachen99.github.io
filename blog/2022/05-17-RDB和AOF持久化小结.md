@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: talk-about-redis-persistence
+slug: database-redis-persistence-rdb-aof
 title: RDB和AOF持久化小结
 authors: [jiguanchen]
 tags: [zhongjianjian,redis]

@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: product-design-and-optimization
+slug: redis-stream-consumer-retry-mechanism
 title: Redis消息队列消费者端断连重试机制实现
 description: "教程：如何为基于Redis消息队列的消费者实现健壮的断线重连与自动重试机制。本文提供了使用Jedis、AtomicBoolean和线程池的完整Java代码示例，确保系统在网络波动或服务重启时消息不丢失。"
 authors: [jiguanchen]
@@ -221,9 +218,7 @@ if (isDown.get()) {
 - **`static AtomicBoolean`**：适合小型系统，能够简单地控制全局状态。缺点是随着系统的复杂度增加，可能变得不够灵活，且状态管理可能存在问题。
 - **`CountDownLatch`**：适合等待多个线程完成任务后进行统一操作，但无法多次触发，因此不适合需要持续重连的场景。
 - **`ScheduledExecutorService`**：适合定期检查连接状态并进行重试的场景。简单易用，但适合周期性任务，不适合即时响应。
-- **`EventBus`**：适合分布式系统中的事件驱动场景，可以实现松耦
-
-合的异步通知机制，但会引入额外的复杂性。
+- **`EventBus`**：适合分布式系统中的事件驱动场景，可以实现松耦合的异步通知机制，但会引入额外的复杂性。
 - **`RetryTemplate`**：适合需要复杂重试策略的场景，能够灵活配置重试次数和间隔时间，但相对复杂。
 
 根据实际需求选择合适的方案，可以有效地提升系统的稳定性和可用性。

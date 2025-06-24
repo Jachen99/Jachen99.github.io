@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug:  talk-about-equals-method
+slug: java-equals-method
 title: 浅谈equals方法
 authors: [jiguanchen]
 ---
@@ -13,7 +10,7 @@ authors: [jiguanchen]
 
 ## 1 、Object类中
 
-Indicates whether some other object is "equal to" this one. 指示其他对象是否“等于”此对象。
+Indicates whether some other object is "equal to" this one. 指示其他对象是否"等于"此对象。
 
 ```java
 public boolean equals(Object obj) {

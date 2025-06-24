@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug:  product-Linux
+slug: linux-common-commands
 title: Linux常用命令
 authors: [jiguanchen]
 tags: [linux]

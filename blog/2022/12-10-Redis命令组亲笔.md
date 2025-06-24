@@ -1,9 +1,6 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: talk-about-redis-api
-title: jedis实操redisAPI
+slug: database-redis-commands
+title: Redis命令组亲笔
 authors: [jiguanchen]
 tags: [zhongjianjian,redis]
 ---
@@ -452,7 +449,7 @@ public class TestSortedSet {
         //  那么更新这个成员的分数值，分数值可以是整数值或双精度浮点数。
         //  3、用于将一个或多个成员元素及其分数值加入到有序集当中
         //  notice:
-        //  1、底层使用到了Ziplist压缩列表和“跳跃表”两种存储结构
+        //  1、底层使用到了Ziplist压缩列表和"跳跃表"两种存储结构
         //  2、如果重复添加相同的数据，score值将被反复覆盖，保留最后一次修改的结果
 
         // TODO：

@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: product-nginx-reload
+slug: nginx-graceful-reload
 title: 探究Nginx优雅reload的细节
 description: "深入解析Nginx `reload` 命令背后的优雅重启流程。本文讲解master与worker进程如何协作，处理SIGHUP信号，启动新进程并优雅关闭旧进程（graceful shutdown），确保服务不中断地平滑更新配置。"
 authors: [jiguanchen]

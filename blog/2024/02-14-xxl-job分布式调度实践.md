@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: product-xxl-job
+slug: middleware-xxl-job-practice
 title: xxl-job分布式调度实践
 authors: [jiguanchen]
 tags: [xxl-job]
@@ -46,10 +43,10 @@ elastic-job：https://shardingsphere.apache.org/elasticjob/
     -   官网地址：https://www.xuxueli.com/xxl-job/
     -   GitHub地址：https://github.com/xuxueli/xxl-job/
 -   xxl-job的设计思想
-    -   将调度行为抽象形成“调度中心”公共平台，而平台自身并不承担业务逻辑，“调度中心”负责发起调度请求。
-    -   将任务抽象成分散的JobHandler，交由“执行器”统一管理
-    -   “执行器”负责接收调度请求并执行对应的JobHandler中业务逻辑。
-    -   因此，“调度”和“任务”两部分可以相互解耦，提高系统整体稳定性和扩展性
+    -   将调度行为抽象形成"调度中心"公共平台，而平台自身并不承担业务逻辑，"调度中心"负责发起调度请求。
+    -   将任务抽象成分散的JobHandler，交由"执行器"统一管理
+    -   "执行器"负责接收调度请求并执行对应的JobHandler中业务逻辑。
+    -   因此，"调度"和"任务"两部分可以相互解耦，提高系统整体稳定性和扩展性
 
 ### 官网架构图
 
@@ -62,7 +59,7 @@ elastic-job：https://shardingsphere.apache.org/elasticjob/
 ![image-20220519181542821](https://file.xdclass.net/note/2022/81-XXL-JOB/img/image-20220519181542821.png)
 
 -   XXL-Job具有哪些特性
-    -   调度中心HA（中心式）：调度采用了中心式进行设计，“调度中心”支持集群部署，可保证调度中心HA
+    -   调度中心HA（中心式）：调度采用了中心式进行设计，"调度中心"支持集群部署，可保证调度中心HA
     -   执行器HA（分布式）：任务分布式的执行，任务执行器支持集群部署，可保证任务执行HA
     -   触发策略：有Cron触发、固定间隔触发、固定延时触发、API事件触发、人工触发、父子任务触发
     -   路由策略：执行器在集群部署的时候提供了丰富的路由策略，如：第一个、最后一个、轮询、随机、一致性HASH、最不经常使用LFU、最久未使用LRU、故障转移等等
@@ -169,7 +166,7 @@ xxl:
       # [选填]执行器IP ：默认为空表示自动获取IP（即springboot容器的ip和端口，可以自动获取，也可以指定），
       # 多网卡时可手动设置指定IP，该IP不会绑定Host仅作为通讯实用；地址信息用于 "执行器注册" 和 "调度中心请求并触发任务"，
       ip:
-      # [选填]执行器注册：优先使用该配置作为注册地址，为空时使用内嵌服务 ”IP:PORT“ 作为注册地址。从而更灵活的支持容器类型执行器动态IP和动态映射端口问题
+      # [选填]执行器注册：优先使用该配置作为注册地址，为空时使用内嵌服务 "IP:PORT" 作为注册地址。从而更灵活的支持容器类型执行器动态IP和动态映射端口问题
       address:
 ```
 

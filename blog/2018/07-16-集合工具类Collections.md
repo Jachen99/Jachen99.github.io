@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: product-collections
+slug: java-collection-utils
 title: 集合工具类Collections
 authors: [jiguanchen]
 ---
@@ -192,11 +189,6 @@ public class TestCom {
     private int age;
     private String name;
     public void setAge(int age) {
- 
- 
- 
- 
- 
         this.age = age;
     }
     public int getAge() {

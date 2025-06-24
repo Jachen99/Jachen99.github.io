@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: product-iterator
+slug: java-iterator
 title: 迭代器Iterator
 authors: [jiguanchen]
 ---

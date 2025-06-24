@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: talk-about-SpringMVC-implementation-process
+slug: spring-mvc-architecture
 title: SpringMVC架构实现流程
 authors: [jiguanchen]
 ---

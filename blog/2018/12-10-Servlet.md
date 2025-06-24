@@ -1,8 +1,5 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
-slug: product-servlet
+slug: java-servlet
 title: Servlet
 authors: [jiguanchen]
 ---
