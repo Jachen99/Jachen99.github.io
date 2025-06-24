@@ -107,3 +107,38 @@ my-blog:
   label: 个人博客
   permalink: /myblog
   description: My Blog tag description
+
+secure:
+  label: 安全
+  permalink: /secure
+  description: 关于安全相关的话题
+
+https:
+  label: Https
+  permalink: /https
+  description: 关于Https相关的话题
+
+java:
+  label: Java
+  permalink: /java
+  description: 关于Java相关的话题
+
+oss:
+  label: OSS
+  permalink: /oss
+  description: 关于OSS相关的话题
+
+guc:
+  label: GUC
+  permalink: /guc
+  description: 关于GUC相关的话题
+
+sharding-jdbc:
+  label: Sharding-JDBC
+  permalink: /sharding-jdbc
+  description: 关于Sharding-JDBC相关的话题
+
+xxl-job:
+  label: Xxl-Job
+  permalink: /xxl-job
+  description: 关于Xxl-Job相关的话题

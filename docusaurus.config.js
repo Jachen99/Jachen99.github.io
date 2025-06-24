@@ -55,9 +55,9 @@ const config = {
                     // 修改博客配置
                     blogTitle: '我的个人博客', // 博客标题
                     blogDescription: '分享技术心得与生活记录。', // 博客描述
-                    postsPerPage: 'ALL', // 显示所有文章在单页中
-                    blogSidebarTitle: '所有文章', // 修改侧边栏标题
-                    blogSidebarCount: 'ALL', // 侧边栏展示所有文章
+                    postsPerPage: 10, // 显示所有文章在单页中
+                    blogSidebarTitle: '近期文章', // 修改侧边栏标题
+                    blogSidebarCount: 5, // 侧边栏展示所有文章
 
                     // 博客最佳实践相关警告
                     onInlineTags: 'warn',
@@ -73,6 +73,10 @@ const config = {
 
 
     themeConfig: {
+        tableOfContents: {
+          minHeadingLevel: 2,
+          maxHeadingLevel: 4,
+        },
         // 评论区配置
         giscus: {
             repo: 'Jachen99/Jachen99.github.io',

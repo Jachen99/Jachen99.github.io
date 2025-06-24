@@ -7,6 +7,9 @@ tags: [oss]
 
 ## BI可视化平台集成OSS
 本技术文档基于开源项目 [DataRoom](https://github.com/gcpaas/DataRoom) 进行修改和扩展。该项目提供了基础的文件管理功能，并集成了阿里云OSS（对象存储服务）。在此基础上，我们为 BI 可视化平台提供了文件上传、下载、删除、复制等操作的实现，并进行了相关的性能优化。
+
+<!-- truncate -->
+
 ### 1. 技术实现
 本系统通过集成阿里云OSS（对象存储服务）实现文件的上传、下载、删除、复制等操作。系统通过在配置文件中配置相关参数，完成与OSS的对接。以下是实现的主要功能：
 
@@ -245,9 +248,7 @@ public class ThreadPoolUtils {
     }
 
     /**
-     * 获取线程池实例，允许自定义核心线程
-
-数和最大线程数
+     * 获取线程池实例，允许自定义核心线程数和最大线程数
      * @param corePoolSize 核心线程数
      * @param maximumPoolSize 最大线程数
      * @param keepAliveTime 线程空闲存活时间
