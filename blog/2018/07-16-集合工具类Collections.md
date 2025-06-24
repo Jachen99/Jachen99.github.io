@@ -1,4 +1,7 @@
 ---
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
 slug: product-collections
 title: 集合工具类Collections
 authors: [jiguanchen]

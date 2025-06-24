@@ -1,4 +1,7 @@
 ---
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
 slug: product-java-exception-finally-must-execute
 title: 异常处理中finally必执行
 authors: [jiguanchen]

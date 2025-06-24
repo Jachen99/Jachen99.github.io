@@ -1,4 +1,7 @@
 ---
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
 slug: product-design-and-optimization
 title: Redis消息队列消费者端断连重试机制实现
 authors: [jiguanchen]

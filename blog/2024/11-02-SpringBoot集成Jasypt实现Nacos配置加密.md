@@ -1,8 +1,11 @@
 ---
-slug: product-jasypt-nacos-config
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
+slug: springboot-jasypt-nacos-config-encryption
 title: SpringBoot集成Jasypt实现Nacos配置加密与解密
 authors: [jiguanchen]
-tags: [安全]
+tags: [secure]
 ---
 
 # SpringBoot集成Jasypt实现Nacos配置加密与解密

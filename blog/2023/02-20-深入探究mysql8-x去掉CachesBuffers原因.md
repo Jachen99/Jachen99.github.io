@@ -1,4 +1,7 @@
 ---
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
 slug:  mysql-CachesBuffers-reason
 title: 深入探究mysql8.x去掉CachesBuffers原因
 authors: [jiguanchen]

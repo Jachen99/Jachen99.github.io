@@ -1,4 +1,7 @@
 ---
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
 slug:  talk-about-equals-method
 title: 浅谈equals方法
 authors: [jiguanchen]

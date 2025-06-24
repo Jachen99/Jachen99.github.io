@@ -1,8 +1,11 @@
 ---
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
 slug: talk-about-redis-persistence
 title: RDB和AOF持久化小结
 authors: [jiguanchen]
-tags: [中间件,redis]
+tags: [zhongjianjian,redis]
 ---
 
 **背景**：简单总结了一些Redis的两种持久化方式 RDB和AOF<!--more-->

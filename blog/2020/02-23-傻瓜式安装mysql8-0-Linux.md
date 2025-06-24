@@ -1,4 +1,7 @@
 ---
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
 slug:  product-mysql8-0-linux
 title: 傻瓜式安装mysql8.0-Linux
 authors: [jiguanchen]

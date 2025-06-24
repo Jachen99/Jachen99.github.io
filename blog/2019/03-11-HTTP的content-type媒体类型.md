@@ -1,4 +1,7 @@
 ---
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
 slug: product-http-content-type
 title: HTTP的content-type媒体类型
 authors: [jiguanchen]

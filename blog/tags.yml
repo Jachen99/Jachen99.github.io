@@ -142,3 +142,18 @@ xxl-job:
   label: Xxl-Job
   permalink: /xxl-job
   description: 关于Xxl-Job相关的话题
+
+elasticsearch:
+  label: Elasticsearch
+  permalink: /elasticsearch
+  description: 关于 Elasticsearch 搜索引擎的话题
+
+backend:
+  label: 后端
+  permalink: /backend
+  description: 关于后端开发相关的话题
+
+database:
+  label: 数据库
+  permalink: /database
+  description: 关于数据库相关的话题

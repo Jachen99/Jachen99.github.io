@@ -1,4 +1,7 @@
 ---
+<!-- truncate -->
+<!-- truncate -->
+<!-- truncate -->
 slug: talk-about-SpringMVC-implementation-process
 title: SpringMVC架构实现流程
 authors: [jiguanchen]
