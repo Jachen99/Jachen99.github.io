@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: advanced-data-processing-with-easyexcel
 title: EasyExcel中的数据第一行获取问题及解决方案详解
 description: "详解如何解决EasyExcel读取Excel时第一行数据被误当成表头的问题。本文提供两种解决方案：通过`headRowNumber`指定数据起始行，以及利用`CellWriteHandler`在写操作中单独处理首行数据。"

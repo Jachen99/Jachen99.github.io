@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: product-Sentinel-flow-control
 title: 流量防卫兵-Sentinel
 authors: [jiguanchen]

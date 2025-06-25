@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: talk-https
 title: 浅谈https非对称加密
 authors: [jiguanchen]

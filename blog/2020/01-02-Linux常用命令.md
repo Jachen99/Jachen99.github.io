@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug:  product-Linux
 title: Linux常用命令
 authors: [jiguanchen]

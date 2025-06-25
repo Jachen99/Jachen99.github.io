@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: product-logic-delete
 title: MongoDB实现逻辑删除
 authors: [jiguanchen]

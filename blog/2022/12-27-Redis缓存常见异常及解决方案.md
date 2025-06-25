@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: talk-about-redis-cache-exceptions-and-solutions
 title: Redis缓存常见异常及解决方案
 authors: [jiguanchen]

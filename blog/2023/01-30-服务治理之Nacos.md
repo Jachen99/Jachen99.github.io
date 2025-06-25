@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: product-nacos-service-management
 title: 服务治理之Nacos
 authors: [jiguanchen]

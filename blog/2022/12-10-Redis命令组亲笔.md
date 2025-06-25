@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: talk-about-redis-api
 title: jedis实操redisAPI
 authors: [jiguanchen]

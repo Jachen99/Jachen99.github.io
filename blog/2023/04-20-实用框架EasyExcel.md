@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: product-easyexcel
 title: 实用框架EasyExcel
 authors: [jiguanchen]

@@ -1,6 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
 slug: product-ribbon
 title: 负载均衡之Ribbon实现
 authors: [jiguanchen]

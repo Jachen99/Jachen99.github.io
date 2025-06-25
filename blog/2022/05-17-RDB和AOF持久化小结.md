@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: talk-about-redis-persistence
 title: RDB和AOF持久化小结
 authors: [jiguanchen]

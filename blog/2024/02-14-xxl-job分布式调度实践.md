@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: product-xxl-job
 title: xxl-job分布式调度实践
 authors: [jiguanchen]

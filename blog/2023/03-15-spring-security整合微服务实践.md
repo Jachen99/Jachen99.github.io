@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: product-spring-security-microservices
 title: spring-security整合微服务实践
 authors: [jiguanchen]

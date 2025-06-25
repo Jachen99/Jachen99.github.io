@@ -1,7 +1,4 @@
 ---
-<!-- truncate -->
-<!-- truncate -->
-<!-- truncate -->
 slug: product-design-and-optimization
 title: Redis消息队列消费者端断连重试机制实现
 description: "教程：如何为基于Redis消息队列的消费者实现健壮的断线重连与自动重试机制。本文提供了使用Jedis、AtomicBoolean和线程池的完整Java代码示例，确保系统在网络波动或服务重启时消息不丢失。"
